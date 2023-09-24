@@ -37,7 +37,7 @@ jobs:
 
       - name: Set up GitHub token for push
         run: |
-          git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
+          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
 
       - name: Commit and push changes
         run: |
