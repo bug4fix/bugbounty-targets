@@ -2,7 +2,7 @@ name: Crawl bugbounty platforms
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   run_and_push:
