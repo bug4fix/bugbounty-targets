@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          persist-credentials: false
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -30,17 +30,15 @@ jobs:
           HACKERONE_TOKEN: ${{ secrets.HACKERONE_TOKEN }}
         run: python main.py
 
-      - name: Configure Git
+      - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-
-      - name: Set up GitHub token for push
-        run: |
-          git remote set-url origin https://${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}
-
-      - name: Commit and push changes
-        run: |
           git add .
           git commit -m "Update programs to the latest version"
-          git push
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
