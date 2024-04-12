@@ -1,5 +1,1041 @@
 [
     {
+        "title": "BookBeat",
+        "slug": "bookbeat",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 81,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
+            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+            "mime_type": "image/png",
+            "size": 7732,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "BookBeat",
+            "slug": "bookbeat",
+            "description": "BookBeat",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
+                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+                "mime_type": "image/png",
+                "size": 7732,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.bookbeat.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Dailymotion public bug bounty",
+        "slug": "dailymotion-public-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 995,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
+            "original_name": "dailymotion-logo-ogtag-new.png",
+            "mime_type": "image/png",
+            "size": 84668,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Dailymotion",
+            "slug": "dailymotion",
+            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "34d87a778f698f059187586302527e70",
+                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
+                "mime_type": "image/png",
+                "size": 6885,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.api.dailymotion.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "developer.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dmcdn.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "ifttt-adaptor.pub.kube.dm.gg",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "AS41690",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "dmxleo.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dm.gg",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Google Cloud Plateform Instances",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 449,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 50000,
+        "scopes_count": 6,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
+            "original_name": "D - white-2.jpg",
+            "mime_type": "image/jpeg",
+            "size": 70202,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "mime_type": "image/png",
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.doctolib.(fr|de|it)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "pro.doctolib.(fr|de|it) (see \"about freemium scope\")",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Special scenarios (see description)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Deezer Bug Bounty Program",
+        "slug": "deezer-bug-bounty-program-2019",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 5,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 488,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
+            "original_name": "ywh4.png",
+            "mime_type": "image/png",
+            "size": 73547,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Deezer",
+            "slug": "deezer",
+            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
+                "original_name": "ywh sqare.png",
+                "mime_type": "image/png",
+                "size": 15291,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "connect.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "payment.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Deezer App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Deezer App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "zen.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.deezer.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.dzcdn.net",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Zen App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Zen App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "YesWeHack Dojo",
+        "slug": "dojo",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 1008,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
+            "original_name": "YWH_DOJO_pgm.PNG",
+            "mime_type": "image/png",
+            "size": 21970,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/85c3578b-bc74-497f-be7a-6bde95722acc"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "YesWeHack Dojo",
+            "slug": "dojo-by-yes-we-hack",
+            "description": "The CTF Dojo platform makes it possible to recreate vulnerabilities from real environments. Each month, we'll publish a new challenge. The top three write-ups will win an exclusive swag pack with goodies and more... \ud83c\udf81",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5c59bf03-e5ff-4291-9f2d-3516ed672e4c",
+                "original_name": "YWH_DOJO_Icon.png",
+                "mime_type": "image/png",
+                "size": 750022,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5c59bf03-e5ff-4291-9f2d-3516ed672e4c"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://dojo-yeswehack.com/challenge-of-the-month",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "EGERIE BUG BOUNTY",
+        "slug": "egerie-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 3,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 46,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 4000,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c7c0e2de-4e4a-4789-93ff-05f999023052",
+            "original_name": "MicrosoftTeams-image (4).png",
+            "mime_type": "image/png",
+            "size": 70052,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c7c0e2de-4e4a-4789-93ff-05f999023052"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "EGERIE SOFTWARE",
+            "slug": "egerie-software",
+            "description": "Integrated Cyberrisk Management platform",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "38e08e18dc7a89f872479c247343f515",
+                "original_name": "egerie.png",
+                "mime_type": "image/png",
+                "size": 21211,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/38e08e18dc7a89f872479c247343f515"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://saas.egerie.eu/*",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://saas.egerie.eu/v4/EgerieRM/api/*",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "TeamViewer - Bounty Program",
+        "slug": "teamviewer-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 203,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "674ffa14-c868-40ff-b36f-3f7f5996ab4e",
+            "original_name": "tv-thumbnail-1080x1080.jpg",
+            "mime_type": "image/jpeg",
+            "size": 361357,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/674ffa14-c868-40ff-b36f-3f7f5996ab4e"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "TeamViewer Germany GmbH",
+            "slug": "teamviewer-germany-gmbh",
+            "description": "The TeamViewer suite of remote connectivity, augmented reality, IT management, and customer-first engagement solutions empowers you to connect to any device to support anyone, any process, or anything \u2014 from anywhere, anytime.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7a8956cd-1f6f-49d7-bc7a-bb188b8964ff",
+                "original_name": "tvw_square.jpeg",
+                "mime_type": "image/jpeg",
+                "size": 9535,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7a8956cd-1f6f-49d7-bc7a-bb188b8964ff"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.teamviewer.com/en/products/teamviewer/",
+                "scope_type": "application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://web.teamviewer.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://account.teamviewer.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://login.teamviewer.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Swapcard",
+        "slug": "swapcard",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 368,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
+            "original_name": "swapcard.png",
+            "mime_type": "image/png",
+            "size": 21772,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/90edd40b-95fe-4e2f-8ae6-7538d3982a75"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Swapcard",
+            "slug": "swapcard",
+            "description": "Swapcard is an event app & matchmaking platform powered by artificial intelligence.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "ea65f8954830cf9737be58af4b85f96b",
+                "original_name": "logo.png",
+                "mime_type": "image/png",
+                "size": 22658,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/ea65f8954830cf9737be58af4b85f96b"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "api.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "chat-api.swapcard.com/graphql",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "developer.swapcard.com/event-admin/graphql",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "login.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "studio-api.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "app.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "studio.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "team.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "img.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "t.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Ezviz - Bug Bounty Program",
+        "slug": "ezviz-bug-bounty-program",
+        "country": "CN",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 4,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 40,
+        "bounty_reward_min": 10,
+        "bounty_reward_max": 4500,
+        "scopes_count": 17,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "72ccf6a5-6ad7-4813-baaa-6190bbb22ce9",
+            "original_name": "\u622a\u53d6\u56fe\u7247_20230816153159.png",
+            "mime_type": "image/png",
+            "size": 9014,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/72ccf6a5-6ad7-4813-baaa-6190bbb22ce9"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "ezviz",
+            "slug": "ezviz",
+            "description": "Established in 2013, EZVIZ dedicates itself to creating a safe, convenient and smart life for users through its intelligent devices, advanced AI technologies and cloud services.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "i.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "open.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "auth.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.ezvizlife.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "usauth.ezvizlife.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ius.ezvizlife.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": ".eziot.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.ezviz7.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.guardingvision.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.hicloudcam.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.shipin7.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.hik-connect.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.hikops.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "France Identit\u00e9 Num\u00e9rique - Public Bug Bounty Program",
+        "slug": "france-identite-numerique-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 8,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 25000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "5e3fd6dd-f4cd-4051-9d18-2763a4b07292",
+            "original_name": "Capture d\u2019e\u0301cran 2024-01-11 a\u0300 16.12.39.png",
+            "mime_type": "image/png",
+            "size": 49759,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/5e3fd6dd-f4cd-4051-9d18-2763a4b07292"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Minist\u00e8re de l\u2019Int\u00e9rieur - France Identit\u00e9 Num\u00e9rique",
+            "slug": "ants",
+            "description": "French government - Ministry of the Interior",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "France Identit\u00e9 mobile application for Android (see link in program description)",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "France Identit\u00e9 mobile application for iOS (see link in program description)",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://mobile.france-identite.gouv.fr",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Specific scenarios",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DANA Bug Bounty Program",
+        "slug": "dana-bug-bounty-program",
+        "country": "ID",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 132,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "1f3d52f8-9425-4b68-afe3-a30b752fa13c",
+            "original_name": "dana-meta-logo.png",
+            "mime_type": "image/png",
+            "size": 24865,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1f3d52f8-9425-4b68-afe3-a30b752fa13c"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "DANA Indonesia",
+            "slug": "dana-indonesia",
+            "description": "DANA is an Indonesian digital wallet that is safe, trusted and reliable anytime, anywhere. With DANA, you can do non-cash and even non-card transactions for your daily needs, from offline payment transactions, to paying bills and installments online. DANA also has many features that make your transaction experience more practical and fast.  DANA as Indonesia\u2019s digital wallet is currently holding a bug bounty program with the scope and rules of the game as written below. Please read it carefully so that your report can be recognized as a valid report.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/id/app/dana/id1437123008",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://appgallery.huawei.com/#/app/C100570215",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "mgs-gw.m.dana.id",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api-saas.dana.id",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "sec.m.dana.id",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "m.dana.id",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
         "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
         "country": "FR",
@@ -51,62 +1087,6 @@
                 "scope": "https://pprd.cybermalveillance.gouv.fr",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "YesWeHack Dojo",
-        "slug": "dojo",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1005,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
-            "original_name": "YWH_DOJO_pgm.PNG",
-            "mime_type": "image/png",
-            "size": 21970,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/85c3578b-bc74-497f-be7a-6bde95722acc"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "YesWeHack Dojo",
-            "slug": "dojo-by-yes-we-hack",
-            "description": "The CTF Dojo platform makes it possible to recreate vulnerabilities from real environments. Each month, we'll publish a new challenge. The top three write-ups will win an exclusive swag pack with goodies and more... \ud83c\udf81",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5c59bf03-e5ff-4291-9f2d-3516ed672e4c",
-                "original_name": "YWH_DOJO_Icon.png",
-                "mime_type": "image/png",
-                "size": 750022,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5c59bf03-e5ff-4291-9f2d-3516ed672e4c"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://dojo-yeswehack.com/challenge-of-the-month",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -514,440 +1494,6 @@
         ]
     },
     {
-        "title": "Ezviz - Bug Bounty Program",
-        "slug": "ezviz-bug-bounty-program",
-        "country": "CN",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 4,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 38,
-        "bounty_reward_min": 10,
-        "bounty_reward_max": 4500,
-        "scopes_count": 17,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "72ccf6a5-6ad7-4813-baaa-6190bbb22ce9",
-            "original_name": "\u622a\u53d6\u56fe\u7247_20230816153159.png",
-            "mime_type": "image/png",
-            "size": 9014,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/72ccf6a5-6ad7-4813-baaa-6190bbb22ce9"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ezviz",
-            "slug": "ezviz",
-            "description": "Established in 2013, EZVIZ dedicates itself to creating a safe, convenient and smart life for users through its intelligent devices, advanced AI technologies and cloud services.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "i.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "open.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "auth.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api.ezvizlife.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "usauth.ezvizlife.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ius.ezvizlife.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": ".eziot.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.ezviz7.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.guardingvision.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.hicloudcam.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.shipin7.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.hik-connect.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.hikops.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Deezer Bug Bounty Program",
-        "slug": "deezer-bug-bounty-program-2019",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 5,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 487,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
-            "original_name": "ywh4.png",
-            "mime_type": "image/png",
-            "size": 73547,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Deezer",
-            "slug": "deezer",
-            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
-                "original_name": "ywh sqare.png",
-                "mime_type": "image/png",
-                "size": 15291,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "connect.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "payment.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Deezer App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Deezer App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "zen.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.deezer.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.dzcdn.net",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Zen App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Zen App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "EGERIE BUG BOUNTY",
-        "slug": "egerie-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 3,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 44,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 4000,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c7c0e2de-4e4a-4789-93ff-05f999023052",
-            "original_name": "MicrosoftTeams-image (4).png",
-            "mime_type": "image/png",
-            "size": 70052,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c7c0e2de-4e4a-4789-93ff-05f999023052"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "EGERIE SOFTWARE",
-            "slug": "egerie-software",
-            "description": "Integrated Cyberrisk Management platform",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "38e08e18dc7a89f872479c247343f515",
-                "original_name": "egerie.png",
-                "mime_type": "image/png",
-                "size": 21211,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/38e08e18dc7a89f872479c247343f515"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://saas.egerie.eu/*",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://saas.egerie.eu/v4/EgerieRM/api/*",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "TeamViewer - Bounty Program",
-        "slug": "teamviewer-bounty-program",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 199,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 10000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "674ffa14-c868-40ff-b36f-3f7f5996ab4e",
-            "original_name": "tv-thumbnail-1080x1080.jpg",
-            "mime_type": "image/jpeg",
-            "size": 361357,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/674ffa14-c868-40ff-b36f-3f7f5996ab4e"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "TeamViewer Germany GmbH",
-            "slug": "teamviewer-germany-gmbh",
-            "description": "The TeamViewer suite of remote connectivity, augmented reality, IT management, and customer-first engagement solutions empowers you to connect to any device to support anyone, any process, or anything \u2014 from anywhere, anytime.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7a8956cd-1f6f-49d7-bc7a-bb188b8964ff",
-                "original_name": "tvw_square.jpeg",
-                "mime_type": "image/jpeg",
-                "size": 9535,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7a8956cd-1f6f-49d7-bc7a-bb188b8964ff"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.teamviewer.com/en/products/teamviewer/",
-                "scope_type": "application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://web.teamviewer.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://account.teamviewer.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.teamviewer.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Infomaniak Bug Bounty program",
         "slug": "infomaniak-bug-bounty-program",
         "country": "CH",
@@ -1211,92 +1757,6 @@
                 "scope": "https://apps.yeswehack.com",
                 "scope_type": "api",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 446,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 50000,
-        "scopes_count": 6,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
-            "original_name": "D - white-2.jpg",
-            "mime_type": "image/jpeg",
-            "size": 70202,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
-                "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"about freemium scope\")",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -2120,122 +2580,6 @@
         ]
     },
     {
-        "title": "Dailymotion public bug bounty",
-        "slug": "dailymotion-public-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 992,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
-            "original_name": "dailymotion-logo-ogtag-new.png",
-            "mime_type": "image/png",
-            "size": 84668,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Dailymotion",
-            "slug": "dailymotion",
-            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "34d87a778f698f059187586302527e70",
-                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
-                "mime_type": "image/png",
-                "size": 6885,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.api.dailymotion.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "developer.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dmcdn.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "ifttt-adaptor.pub.kube.dm.gg",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "AS41690",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "dmxleo.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dm.gg",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Google Cloud Plateform Instances",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Ooredoo QPSC - Customer Portal Bug Bounty Program",
         "slug": "ooredoo-qpsc-bug-bounty-program",
         "country": "QA",
@@ -2379,128 +2723,6 @@
                 "scope": "Third-party properties",
                 "scope_type": "other",
                 "asset_value": "VERY_LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Swapcard",
-        "slug": "swapcard",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 368,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
-            "original_name": "swapcard.png",
-            "mime_type": "image/png",
-            "size": 21772,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/90edd40b-95fe-4e2f-8ae6-7538d3982a75"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Swapcard",
-            "slug": "swapcard",
-            "description": "Swapcard is an event app & matchmaking platform powered by artificial intelligence.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "ea65f8954830cf9737be58af4b85f96b",
-                "original_name": "logo.png",
-                "mime_type": "image/png",
-                "size": 22658,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/ea65f8954830cf9737be58af4b85f96b"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "api.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "chat-api.swapcard.com/graphql",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "developer.swapcard.com/event-admin/graphql",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "login.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "studio-api.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "app.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "studio.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "team.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "img.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "t.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -3264,62 +3486,6 @@
         ]
     },
     {
-        "title": "BookBeat",
-        "slug": "bookbeat",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 78,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
-            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-            "mime_type": "image/png",
-            "size": 7732,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "BookBeat",
-            "slug": "bookbeat",
-            "description": "BookBeat",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
-                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-                "mime_type": "image/png",
-                "size": 7732,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.bookbeat.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Spacelift.io - Bug Bounty Program",
         "slug": "spacelift-io-bug-bounty-program",
         "country": "US",
@@ -3487,80 +3653,6 @@
                 "scope": "https://bot-tester.datadome.co/",
                 "scope_type": "web-application",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "France Identit\u00e9 Num\u00e9rique - Public Bug Bounty Program",
-        "slug": "france-identite-numerique-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 6,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 25000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "5e3fd6dd-f4cd-4051-9d18-2763a4b07292",
-            "original_name": "Capture d\u2019e\u0301cran 2024-01-11 a\u0300 16.12.39.png",
-            "mime_type": "image/png",
-            "size": 49759,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/5e3fd6dd-f4cd-4051-9d18-2763a4b07292"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Minist\u00e8re de l\u2019Int\u00e9rieur - France Identit\u00e9 Num\u00e9rique",
-            "slug": "ants",
-            "description": "French government - Ministry of the Interior",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "France Identit\u00e9 mobile application for Android (see link in program description)",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "France Identit\u00e9 mobile application for iOS (see link in program description)",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://mobile.france-identite.gouv.fr",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Specific scenarios",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -4341,98 +4433,6 @@
                 "scope": "https://pbgq-pes.upac.gouv.qc.ca/nous-joindre/",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DANA Bug Bounty Program",
-        "slug": "dana-bug-bounty-program",
-        "country": "ID",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 129,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "1f3d52f8-9425-4b68-afe3-a30b752fa13c",
-            "original_name": "dana-meta-logo.png",
-            "mime_type": "image/png",
-            "size": 24865,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1f3d52f8-9425-4b68-afe3-a30b752fa13c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "DANA Indonesia",
-            "slug": "dana-indonesia",
-            "description": "DANA is an Indonesian digital wallet that is safe, trusted and reliable anytime, anywhere. With DANA, you can do non-cash and even non-card transactions for your daily needs, from offline payment transactions, to paying bills and installments online. DANA also has many features that make your transaction experience more practical and fast.  DANA as Indonesia\u2019s digital wallet is currently holding a bug bounty program with the scope and rules of the game as written below. Please read it carefully so that your report can be recognized as a valid report.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/id/app/dana/id1437123008",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://appgallery.huawei.com/#/app/C100570215",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "mgs-gw.m.dana.id",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api-saas.dana.id",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "sec.m.dana.id",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "m.dana.id",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
