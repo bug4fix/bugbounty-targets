@@ -1,5 +1,1037 @@
 [
     {
+        "title": "Ezviz - Bug Bounty Program",
+        "slug": "ezviz-bug-bounty-program",
+        "country": "CN",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 5,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 118,
+        "bounty_reward_min": 10,
+        "bounty_reward_max": 3000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "72ccf6a5-6ad7-4813-baaa-6190bbb22ce9",
+            "original_name": "\u622a\u53d6\u56fe\u7247_20230816153159.png",
+            "mime_type": "image/png",
+            "size": 9014,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/72ccf6a5-6ad7-4813-baaa-6190bbb22ce9"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "ezviz",
+            "slug": "ezviz",
+            "description": "Established in 2013, EZVIZ dedicates itself to creating a safe, convenient and smart life for users through its intelligent devices, advanced AI technologies and cloud services.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "i.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "open.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "auth.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api.ezvizlife.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "usauth.ezvizlife.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ius.ezvizlife.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.ys7.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": ".eziot.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Yes We Hack",
+        "slug": "yes-we-hack",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 404,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 15000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "0db467e0-a45c-4515-8856-efc2cc12a41f",
+            "original_name": "YWH-logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 65866,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/0db467e0-a45c-4515-8856-efc2cc12a41f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Yes We Hack",
+            "slug": "yes-we-hack",
+            "description": "Global Bug Bounty & VDP Platform",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "9196423d-9223-4c0b-9548-0632f77d18ae",
+                "original_name": "YWH.jpg",
+                "mime_type": "image/jpeg",
+                "size": 81815,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/9196423d-9223-4c0b-9548-0632f77d18ae"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://yeswehack.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.yeswehack.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.yeswehack.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "OPPO - Bug Bounty Program",
+        "slug": "oppo-bug-bounty-program",
+        "country": "CN",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 181,
+        "bounty_reward_min": 5,
+        "bounty_reward_max": 4440,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "28b33ea2-fe55-4e35-a286-70d21d7427d1",
+            "original_name": "oppo_logo1 - thumbnail.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 48774,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/28b33ea2-fe55-4e35-a286-70d21d7427d1"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "OPPO",
+            "slug": "oppo",
+            "description": "OSRC(OPPO Security Response Center) is a platform of identifying security vulnerabilities and responding to security threats of OPPO business. We are dedicated to protecting security of OPPO's users, products and services, promoting cooperation and communications among security experts. OPPO places great importance on the security of our own products and services, and we have always been committed to user security. With OSRC, we hope to improve the overall security level of OPPO by strengthening our cooperation with individuals, organizations and companies in the industry.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "f2b5ffa9-54d3-43bb-b10b-d32372396dd4",
+                "original_name": "oppo_company.jpeg",
+                "mime_type": "image/jpeg",
+                "size": 16511,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/f2b5ffa9-54d3-43bb-b10b-d32372396dd4"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "OPPO-owned properties Core properties",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "OPPO-owned properties Non-core properties",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Test environments",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Third-party properties",
+                "scope_type": "other",
+                "asset_value": "VERY_LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "OX App Suite",
+        "slug": "app-suite",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 189,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "b0042698-db82-4f48-b2a8-c6b28e110efd",
+            "original_name": "ywh-oxlogo.png",
+            "mime_type": "image/png",
+            "size": 8370,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b0042698-db82-4f48-b2a8-c6b28e110efd"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Open-Xchange",
+            "slug": "open-xchange-gmbh",
+            "description": "Building a borderless Internet that is open, safe and free.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "563b6c81-283b-4bf1-af14-e1b47a8511f9",
+                "original_name": "ox.png",
+                "mime_type": "image/png",
+                "size": 8920,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/563b6c81-283b-4bf1-af14-e1b47a8511f9"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://sandbox.open-xchange.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://sandbox.open-xchange.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "GitLab and GitHub repos listed on this page",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "VFS Global Bug Bounty Program",
+        "slug": "vfs-global-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 819,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1500,
+        "scopes_count": 31,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "1fbbc14c-7938-48e8-b78e-dd478048dde2",
+            "original_name": "vfs-global.jpg",
+            "mime_type": "image/jpeg",
+            "size": 36470,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1fbbc14c-7938-48e8-b78e-dd478048dde2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "VFS GLOBAL SERVICES PVT. LTD.",
+            "slug": "vfs-global-services-pvt-ltd",
+            "description": "VFS GLOBAL SERVICES PVT. LTD.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "aca47786-81f9-4a0b-a7f1-1c23177d11d1",
+                "original_name": "0x0.png",
+                "mime_type": "image/png",
+                "size": 56676,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/aca47786-81f9-4a0b-a7f1-1c23177d11d1"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.vfsglobal.(com|co.uk|ca)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vfsevisa.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "onevasco.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vascoworldwide.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfsvisaonline.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.dvpc.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfsvisaservicesrussia.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "vfstasheer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.directverify.in",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.docswallet.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "biometservices.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "agents.tasheer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://equatorialguinea-evisa.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://online.srilankaevisa.lk/lka/en/login",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://online.mustaqel.qa/qat/en/login",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://vfs.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://cicforms.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://vfsforms.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://vfseu.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.vfsvisaservice.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://indonesiavoa.vfsevisa.id/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Infomaniak Bug Bounty program",
+        "slug": "infomaniak-bug-bounty-program",
+        "country": "CH",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 400,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 3500,
+        "scopes_count": 32,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
+            "original_name": "logo-k-_1_.jpg",
+            "mime_type": "image/jpeg",
+            "size": 38164,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a8ed0d8c-1e61-434d-997f-e25e3c45f1e8"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Infomaniak",
+            "slug": "infomaniak",
+            "description": "Infomaniak is Switzerland's largest web-hosting company, also offering live-streaming and video on demand services.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7cf25280-a177-4aca-ad3e-9e11ddb2633f",
+                "original_name": "Capture d\u2019e\u0301cran 2023-06-16 a\u0300 16.50.25.png",
+                "mime_type": "image/png",
+                "size": 9091,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7cf25280-a177-4aca-ad3e-9e11ddb2633f"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.kdrive.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.infomaniak.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "login.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "manager.infomaniak.com/v3/*",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "shop.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.kchat.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "calendar.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "contacts.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "etickets.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "mail.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "swiss-backup*.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "vod.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.vod2.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "player-radio.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "welcome.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.swisstransfer.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "chk.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ai-tools.infomaniak.com",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ix2smbdyjt.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "5k8vrbdyje.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "fv3lfbdyjh.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "l75pvbdyjo.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "infomaniak.events",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sms.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "developer.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "invitation.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/Infomaniak/desktop-kDrive",
+                "scope_type": "application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Bug Bounty SNCF Connect",
+        "slug": "bug-bounty-sncf-connect-1",
+        "country": "FR",
+        "activity_area": "Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 104,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 10000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "b766f46f-1112-4cf1-8b3b-9194e131c8cb",
+            "original_name": "sncf-1200.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 28538,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b766f46f-1112-4cf1-8b3b-9194e131c8cb"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "SNCF Connect",
+            "slug": "oui-sncf",
+            "description": "E-Commerce Travel Agency",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "07748aad-0799-40f4-b57d-5e78ab4032be",
+                "original_name": "logo-sncf-connect-resized.png",
+                "mime_type": "image/png",
+                "size": 13132,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/07748aad-0799-40f4-b57d-5e78ab4032be"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.sncf-connect.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://sncf-connect.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https//monidentifiant.sncf",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.sncf-connect.com/bff",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Swiss Post",
+        "slug": "swiss-post",
+        "country": "CH",
+        "activity_area": "Transportation",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 721,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
+        "scopes_count": 8,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9fe0f712-4798-435e-9df4-39e9a12e427e",
+            "original_name": "Post_Logo_digital_RGB (1).png",
+            "mime_type": "image/png",
+            "size": 12204,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9fe0f712-4798-435e-9df4-39e9a12e427e"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Swiss Post",
+            "slug": "swiss-post",
+            "description": "Bug Bounty Post - Securing Digital Trust",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "6dc5820f-f66e-44f4-a34f-359295db4bc7",
+                "original_name": "Post_Logo_digital_RGB300.png",
+                "mime_type": "image/png",
+                "size": 3801,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/6dc5820f-f66e-44f4-a34f-359295db4bc7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://account.post.ch",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://shop.post.ch/shop",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/ekp-web/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/zopa/app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/ele-klp/ele/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Tencent Bug Bounty Program",
+        "slug": "tencent-bug-bounty-program",
+        "country": "CN",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 5,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 85,
+        "bounty_reward_min": 8,
+        "bounty_reward_max": 6425,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "6f1a3272-3912-4f7c-a7b2-c6ed38d3212a",
+            "original_name": "VDvv02E__400x400.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 3985,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/6f1a3272-3912-4f7c-a7b2-c6ed38d3212a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Tencent",
+            "slug": "tencent",
+            "description": "Tencent is a world-leading internet and technology company that develops innovative products and services to improve the quality of life of people around the world.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Mon Espace Sant\u00e9 (MES)",
         "slug": "mon-espace-sante-mes",
         "country": "FR",
@@ -249,242 +1281,6 @@
                 "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
                 "scope_type": "mobile-application-android",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "VFS Global Bug Bounty Program",
-        "slug": "vfs-global-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 818,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1500,
-        "scopes_count": 31,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "1fbbc14c-7938-48e8-b78e-dd478048dde2",
-            "original_name": "vfs-global.jpg",
-            "mime_type": "image/jpeg",
-            "size": 36470,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1fbbc14c-7938-48e8-b78e-dd478048dde2"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "VFS GLOBAL SERVICES PVT. LTD.",
-            "slug": "vfs-global-services-pvt-ltd",
-            "description": "VFS GLOBAL SERVICES PVT. LTD.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "aca47786-81f9-4a0b-a7f1-1c23177d11d1",
-                "original_name": "0x0.png",
-                "mime_type": "image/png",
-                "size": 56676,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/aca47786-81f9-4a0b-a7f1-1c23177d11d1"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.vfsglobal.(com|co.uk|ca)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vfsevisa.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "onevasco.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vascoworldwide.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vfsvisaonline.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.dvpc.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vfsvisaservicesrussia.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "vfstasheer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.directverify.in",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.docswallet.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "biometservices.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "agents.tasheer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://equatorialguinea-evisa.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://online.srilankaevisa.lk/lka/en/login",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://online.mustaqel.qa/qat/en/login",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://vfs.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://cicforms.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://vfsforms.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://vfseu.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.vfsvisaservice.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://indonesiavoa.vfsevisa.id/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -1136,152 +1932,6 @@
         ]
     },
     {
-        "title": "Ezviz - Bug Bounty Program",
-        "slug": "ezviz-bug-bounty-program",
-        "country": "CN",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 5,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 117,
-        "bounty_reward_min": 10,
-        "bounty_reward_max": 4500,
-        "scopes_count": 16,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "72ccf6a5-6ad7-4813-baaa-6190bbb22ce9",
-            "original_name": "\u622a\u53d6\u56fe\u7247_20230816153159.png",
-            "mime_type": "image/png",
-            "size": 9014,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/72ccf6a5-6ad7-4813-baaa-6190bbb22ce9"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ezviz",
-            "slug": "ezviz",
-            "description": "Established in 2013, EZVIZ dedicates itself to creating a safe, convenient and smart life for users through its intelligent devices, advanced AI technologies and cloud services.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "Hardware found on https://www.ezviz.com/category/security-wifi-cameras",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Hardware found on https://www.ezviz.com/category/smart-home",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "i.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "open.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "auth.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api.ezvizlife.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "usauth.ezvizlife.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ius.ezvizlife.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.ys7.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": ".eziot.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.guardingvision.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.hicloudcam.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.shipin7.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.hik-connect.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "*.hikops.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Swiss Post - E-Voting",
         "slug": "swiss-post-evoting",
         "country": "CH",
@@ -1350,104 +2000,6 @@
             {
                 "scope": "Protocol of the Swiss Post Voting System",
                 "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Swiss Post",
-        "slug": "swiss-post",
-        "country": "CH",
-        "activity_area": "Transportation",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 719,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 10000,
-        "scopes_count": 8,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9fe0f712-4798-435e-9df4-39e9a12e427e",
-            "original_name": "Post_Logo_digital_RGB (1).png",
-            "mime_type": "image/png",
-            "size": 12204,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9fe0f712-4798-435e-9df4-39e9a12e427e"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Swiss Post",
-            "slug": "swiss-post",
-            "description": "Bug Bounty Post - Securing Digital Trust",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "6dc5820f-f66e-44f4-a34f-359295db4bc7",
-                "original_name": "Post_Logo_digital_RGB300.png",
-                "mime_type": "image/png",
-                "size": 3801,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/6dc5820f-f66e-44f4-a34f-359295db4bc7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://account.post.ch",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://shop.post.ch/shop",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/ekp-web/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/zopa/app/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/ele-klp/ele/",
-                "scope_type": "web-application",
                 "asset_value": "HIGH",
                 "report_count": null
             }
@@ -1596,322 +2148,6 @@
             {
                 "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-32",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Bug Bounty SNCF Connect",
-        "slug": "bug-bounty-sncf-connect-1",
-        "country": "FR",
-        "activity_area": "Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 102,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 10000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b766f46f-1112-4cf1-8b3b-9194e131c8cb",
-            "original_name": "sncf-1200.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 28538,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b766f46f-1112-4cf1-8b3b-9194e131c8cb"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "SNCF Connect",
-            "slug": "oui-sncf",
-            "description": "E-Commerce Travel Agency",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "07748aad-0799-40f4-b57d-5e78ab4032be",
-                "original_name": "logo-sncf-connect-resized.png",
-                "mime_type": "image/png",
-                "size": 13132,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/07748aad-0799-40f4-b57d-5e78ab4032be"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.sncf-connect.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://sncf-connect.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https//monidentifiant.sncf",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.sncf-connect.com/bff",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Infomaniak Bug Bounty program",
-        "slug": "infomaniak-bug-bounty-program",
-        "country": "CH",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 397,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 3500,
-        "scopes_count": 32,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
-            "original_name": "logo-k-_1_.jpg",
-            "mime_type": "image/jpeg",
-            "size": 38164,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a8ed0d8c-1e61-434d-997f-e25e3c45f1e8"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Infomaniak",
-            "slug": "infomaniak",
-            "description": "Infomaniak is Switzerland's largest web-hosting company, also offering live-streaming and video on demand services.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7cf25280-a177-4aca-ad3e-9e11ddb2633f",
-                "original_name": "Capture d\u2019e\u0301cran 2023-06-16 a\u0300 16.50.25.png",
-                "mime_type": "image/png",
-                "size": 9091,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7cf25280-a177-4aca-ad3e-9e11ddb2633f"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.kdrive.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.infomaniak.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "login.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "manager.infomaniak.com/v3/*",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "shop.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.kchat.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "calendar.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "contacts.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "etickets.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "mail.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "swiss-backup*.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "vod.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.vod2.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "player-radio.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "welcome.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.swisstransfer.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "chk.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ai-tools.infomaniak.com",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ix2smbdyjt.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "5k8vrbdyje.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "fv3lfbdyjh.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "l75pvbdyjo.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "infomaniak.events",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sms.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "developer.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "invitation.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/Infomaniak/desktop-kDrive",
-                "scope_type": "application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
-                "scope_type": "mobile-application-android",
                 "asset_value": "MEDIUM",
                 "report_count": null
             }
@@ -2210,136 +2446,6 @@
         ]
     },
     {
-        "title": "Tencent Bug Bounty Program",
-        "slug": "tencent-bug-bounty-program",
-        "country": "CN",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 5,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 83,
-        "bounty_reward_min": 8,
-        "bounty_reward_max": 6425,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "6f1a3272-3912-4f7c-a7b2-c6ed38d3212a",
-            "original_name": "VDvv02E__400x400.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 3985,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/6f1a3272-3912-4f7c-a7b2-c6ed38d3212a"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Tencent",
-            "slug": "tencent",
-            "description": "Tencent is a world-leading internet and technology company that develops innovative products and services to improve the quality of life of people around the world.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "In-Scope Products (for the full list please visit https://en.security.tencent.com/index.php/policy)",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "OPPO - Bug Bounty Program",
-        "slug": "oppo-bug-bounty-program",
-        "country": "CN",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 180,
-        "bounty_reward_min": 5,
-        "bounty_reward_max": 4440,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "28b33ea2-fe55-4e35-a286-70d21d7427d1",
-            "original_name": "oppo_logo1 - thumbnail.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 48774,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/28b33ea2-fe55-4e35-a286-70d21d7427d1"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "OPPO",
-            "slug": "oppo",
-            "description": "OSRC(OPPO Security Response Center) is a platform of identifying security vulnerabilities and responding to security threats of OPPO business. We are dedicated to protecting security of OPPO's users, products and services, promoting cooperation and communications among security experts. OPPO places great importance on the security of our own products and services, and we have always been committed to user security. With OSRC, we hope to improve the overall security level of OPPO by strengthening our cooperation with individuals, organizations and companies in the industry.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "f2b5ffa9-54d3-43bb-b10b-d32372396dd4",
-                "original_name": "oppo_company.jpeg",
-                "mime_type": "image/jpeg",
-                "size": 16511,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/f2b5ffa9-54d3-43bb-b10b-d32372396dd4"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "OPPO-owned properties Core properties",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "OPPO-owned properties Non-core properties",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Test environments",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Third-party properties",
-                "scope_type": "other",
-                "asset_value": "VERY_LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "BookBeat",
         "slug": "bookbeat",
         "country": "SE",
@@ -2569,142 +2675,6 @@
                 "scope": "Multi VCS",
                 "scope_type": "application",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Yes We Hack",
-        "slug": "yes-we-hack",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 403,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 15000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "0db467e0-a45c-4515-8856-efc2cc12a41f",
-            "original_name": "YWH-logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 65866,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/0db467e0-a45c-4515-8856-efc2cc12a41f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Yes We Hack",
-            "slug": "yes-we-hack",
-            "description": "Global Bug Bounty & VDP Platform",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "9196423d-9223-4c0b-9548-0632f77d18ae",
-                "original_name": "YWH.jpg",
-                "mime_type": "image/jpeg",
-                "size": 81815,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/9196423d-9223-4c0b-9548-0632f77d18ae"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://yeswehack.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.yeswehack.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.yeswehack.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "OX App Suite",
-        "slug": "app-suite",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 186,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b0042698-db82-4f48-b2a8-c6b28e110efd",
-            "original_name": "ywh-oxlogo.png",
-            "mime_type": "image/png",
-            "size": 8370,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b0042698-db82-4f48-b2a8-c6b28e110efd"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Open-Xchange",
-            "slug": "open-xchange-gmbh",
-            "description": "Building a borderless Internet that is open, safe and free.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "563b6c81-283b-4bf1-af14-e1b47a8511f9",
-                "original_name": "ox.png",
-                "mime_type": "image/png",
-                "size": 8920,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/563b6c81-283b-4bf1-af14-e1b47a8511f9"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://sandbox.open-xchange.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://sandbox.open-xchange.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "GitLab and GitHub repos listed on this page",
-                "scope_type": "other",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
