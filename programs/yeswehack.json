@@ -1,5 +1,1457 @@
 [
     {
+        "title": "Telenor Sweden Public Bug Bounty Program",
+        "slug": "telenor-sweden-public-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 639,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 4000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
+            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
+            "mime_type": "image/jpeg",
+            "size": 17150,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Telenor Sweden",
+            "slug": "telenor-sweden",
+            "description": "Telecommunication",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
+                "original_name": "telenor.png",
+                "mime_type": "image/png",
+                "size": 5381,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.telenor.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.bredbandsbolaget.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.europolitan.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.ownit.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.work",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.io",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "HARMAN International - Web Applications",
+        "slug": "harman-international-web-applications",
+        "country": "US",
+        "activity_area": "Manufacturing",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 167,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 4000,
+        "scopes_count": 13,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "893e330d-95e9-48d1-bb81-0ad52b2d2cdc",
+            "original_name": "download-1.png",
+            "mime_type": "image/png",
+            "size": 5457,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/893e330d-95e9-48d1-bb81-0ad52b2d2cdc"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Harman International",
+            "slug": "harman-international",
+            "description": "HARMAN designs and engineers c\u200bonnected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automat\u200bion solutions; and connected services. Our talented workforce and innovation strength create value for our stakeholders by enabli\u200bng rich experiences through the connected car, connected enterprise and connected lifestyle.  Audi\u200b\u200bophiles from every generation call on HARMAN to deliver the best in sound in the studio and on the stage, at home and on the go. HARMAN\u2019s portfolio of legendary audio brands includes AKG\u00ae, Harman Kardon\u00ae, Infinity\u00ae, JBL\u00ae, Lexicon\u00ae, Mark Levinson\u00aeand Revel\u00ae. More than 50 million vehicles on the road today enjoy an enhanced driving experience, thanks to HARMAN audio and infotainment. We extend the same spirit of innovation to the world\u2019s leading performance and sporting venues, providing everyone with the best seats in the house.  Seizing the rich opportunities of today\u2019s global markets requires more than legendary sound. HARMAN has reshaped our organization and cost structure to make the Company more agile in a changing world and addressed the rising importance of highly integrated, software-rich products and services. Most importantly, our track record of innovation, which has distinguished HARMAN and its premium audio and infotainment brands for more than 60 years, continues.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "9b1ebb29-0de1-4e52-952d-15b4acc0c111",
+                "original_name": "harman-logo.PNG",
+                "mime_type": "image/png",
+                "size": 39950,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/9b1ebb29-0de1-4e52-952d-15b4acc0c111"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.harmanaudio.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.harmankardon.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.infinitylab.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.support.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "*.jbl.nl",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.jbl.ru",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.uk.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.uk.harmanaudio.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.de.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.in.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.jp.jbl.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.jbl.com.br",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Sequoia PGP Bug Bounty Program",
+        "slug": "sequoia-pgp-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 6,
+        "bounty_reward_min": 500,
+        "bounty_reward_max": 10000,
+        "scopes_count": 21,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "ca310a3b-b08d-4fb6-aa8a-68422114b196",
+            "original_name": "logo.png",
+            "mime_type": "image/png",
+            "size": 6080,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/ca310a3b-b08d-4fb6-aa8a-68422114b196"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Sovereign Tech Fund",
+            "slug": "sovereign-tech-fund",
+            "description": "Securing Open Source Ecosystem",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
+                "original_name": "stf-avatar-1-short copy.png",
+                "mime_type": "image/png",
+                "size": 12477,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "buffered-reader",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "nettle-sys",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "nettle-rs",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "SHA1-CD",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-openpgp",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-autocrypt",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-ipc",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-net",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Shared OpenPGP Certificate Directory",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-cert-store",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-wot",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-policy-config",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "rpm-sequoia",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sqv",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sq",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sqop",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "octopus",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sequoia-git",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "OpenPGP Cert Directory Specification",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Web of Trust Specification",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Sequoia git Specification",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "ATG Public Bug Bounty Program",
+        "slug": "atg-public-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 173,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 4000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "635dd0a3-7641-4e12-a41f-56cdb25e3f3f",
+            "original_name": "atg-logo-ywh-4.PNG",
+            "mime_type": "image/png",
+            "size": 320447,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/635dd0a3-7641-4e12-a41f-56cdb25e3f3f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "ATG",
+            "slug": "atg",
+            "description": "ATG is the gaming company that knows horse racing. The company was founded in 1974 with the mission to safeguard the long-term development of trotting and thoroughbred racing by offering responsible gambling. ATG has provided quality excitement and entertainment to the Swedish people since the first bet was placed. The company intends to continue doing so. Our vision is to deliver the world\u2019s best gaming experiences. Our offering is: exciting gaming experiences in a fair and convenient manner.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "53ff10cc305474172ae6d66151d4da65",
+                "original_name": "vinnie.PNG",
+                "mime_type": "image/png",
+                "size": 114496,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/53ff10cc305474172ae6d66151d4da65"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.atg.se",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.atg.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.atg.se",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "iam.atg.se",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/se/app/atg/id1434660322",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/se/app/atg-live/id1608156355",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "VFS Global Bug Bounty Program",
+        "slug": "vfs-global-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 901,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1500,
+        "scopes_count": 30,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "1fbbc14c-7938-48e8-b78e-dd478048dde2",
+            "original_name": "vfs-global.jpg",
+            "mime_type": "image/jpeg",
+            "size": 36470,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1fbbc14c-7938-48e8-b78e-dd478048dde2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "VFS GLOBAL SERVICES PVT. LTD.",
+            "slug": "vfs-global-services-pvt-ltd",
+            "description": "VFS GLOBAL SERVICES PVT. LTD.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "aca47786-81f9-4a0b-a7f1-1c23177d11d1",
+                "original_name": "0x0.png",
+                "mime_type": "image/png",
+                "size": 56676,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/aca47786-81f9-4a0b-a7f1-1c23177d11d1"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.vfsglobal.(com|co.uk|ca)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vfsevisa.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "onevasco.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vascoworldwide.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfsvisaonline.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.dvpc.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.vfsvisaservicesrussia.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.directverify.in",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "www.docswallet.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "biometservices.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "agents.tasheer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://equatorialguinea-evisa.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://online.srilankaevisa.lk/lka/en/login",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://online.mustaqel.qa/qat/en/login",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://vfs.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://cicforms.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://vfsforms.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://vfseu.mioot.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.vfsvisaservice.com/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://indonesiavoa.vfsevisa.id/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Deezer Bug Bounty Program",
+        "slug": "deezer-bug-bounty-program-2019",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 503,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
+            "original_name": "ywh4.png",
+            "mime_type": "image/png",
+            "size": 73547,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Deezer",
+            "slug": "deezer",
+            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
+                "original_name": "ywh sqare.png",
+                "mime_type": "image/png",
+                "size": 15291,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "connect.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "payment.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Deezer App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Deezer App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "zen.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.deezer.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.dzcdn.net",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Zen App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Zen App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DRACOON \u2013\u00a0Bug Bounty Program",
+        "slug": "dracoon-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 7,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "43be16e4-098c-48ee-9756-b8919ae3ad99",
+            "original_name": "signet-1024-squared Kopie.png",
+            "mime_type": "image/png",
+            "size": 15850,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/43be16e4-098c-48ee-9756-b8919ae3ad99"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "DRACOON",
+            "slug": "dracoon",
+            "description": "DRACOON offers secure file sharing and collaboration services with two products, DRACOON Cloud and DRACOON Server. Both products support built-in end-to-end encryption and offer many features tailored for large organizations, such as a complex roles and permissions system, SSO integration, auditing and reporting features.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "abf41305-f929-48bc-856f-bcf2f3ed9c1f",
+                "original_name": "signet-1024-squared Kopie.png",
+                "mime_type": "image/png",
+                "size": 15850,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/abf41305-f929-48bc-856f-bcf2f3ed9c1f"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://bounty-cloud.dracoon.app/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/oauth",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/mediaserver",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/reporting/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/webdav",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/oauth",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/reporting/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/webdav",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GovTech - Vulnerability Disclosure Programme Policy",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": true,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 17,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.gov.sg",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Spacelift.io - Bug Bounty Program",
+        "slug": "spacelift-io-bug-bounty-program",
+        "country": "US",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 76,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3600,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "2048c721-7498-4aa1-aca0-778d0f6b0495",
+            "original_name": "logo-light.jpg",
+            "mime_type": "image/jpeg",
+            "size": 32781,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/2048c721-7498-4aa1-aca0-778d0f6b0495"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Spacelift INC",
+            "slug": "spacelift-inc",
+            "description": "Spacelift is a sophisticated CI/CD platform for Terraform, CloudFormation, Pulumi, and Kubernetes",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://*.app.spacelift.dev",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "User Management",
+                "scope_type": "application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "MFA",
+                "scope_type": "application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "Multi VCS",
+                "scope_type": "application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Harman International Lifestyle Products & Services",
+        "slug": "harman-international-public-bug-bounty",
+        "country": "US",
+        "activity_area": "Manufacturing",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 91,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 4000,
+        "scopes_count": 25,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "e8c7820f-2474-4856-89ad-313b6789fc09",
+            "original_name": "harman-logo.PNG",
+            "mime_type": "image/png",
+            "size": 39950,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/e8c7820f-2474-4856-89ad-313b6789fc09"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Harman International",
+            "slug": "harman-international",
+            "description": "HARMAN designs and engineers c\u200bonnected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automat\u200bion solutions; and connected services. Our talented workforce and innovation strength create value for our stakeholders by enabli\u200bng rich experiences through the connected car, connected enterprise and connected lifestyle.  Audi\u200b\u200bophiles from every generation call on HARMAN to deliver the best in sound in the studio and on the stage, at home and on the go. HARMAN\u2019s portfolio of legendary audio brands includes AKG\u00ae, Harman Kardon\u00ae, Infinity\u00ae, JBL\u00ae, Lexicon\u00ae, Mark Levinson\u00aeand Revel\u00ae. More than 50 million vehicles on the road today enjoy an enhanced driving experience, thanks to HARMAN audio and infotainment. We extend the same spirit of innovation to the world\u2019s leading performance and sporting venues, providing everyone with the best seats in the house.  Seizing the rich opportunities of today\u2019s global markets requires more than legendary sound. HARMAN has reshaped our organization and cost structure to make the Company more agile in a changing world and addressed the rising importance of highly integrated, software-rich products and services. Most importantly, our track record of innovation, which has distinguished HARMAN and its premium audio and infotainment brands for more than 60 years, continues.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "9b1ebb29-0de1-4e52-952d-15b4acc0c111",
+                "original_name": "harman-logo.PNG",
+                "mime_type": "image/png",
+                "size": 39950,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/9b1ebb29-0de1-4e52-952d-15b4acc0c111"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "Device: JBL Bar 300",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Device: JBL Bar 500",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Device: JBL Bar 700",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Device: JBL Bar 800",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Device: JBL Bar 1000",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Device: JBL Bar 1300",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "a1ttqkupgmaxeg-ats.iot.us-east-1.amazonaws.com",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "a1ttqkupgmaxeg-ats.iot.ap-east-1.amazonaws.com",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "lsaconsumerevents2.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "lsaconsumerevents3.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "lsaconsumerevents1.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "events.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "ota-staging.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "ota.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "apis.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "edgeapis.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "things.onecloud.harman.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "JBL Authentics 200",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "JBL Authentics 300",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "JBL Authentics 500",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "JBL Boombox 3 Wi-Fi",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "JBL Charge 5 Wi-Fi",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "JBL PartyBox Ultimate",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GNOME Bug Bounty Program",
+        "slug": "gnome-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 2,
+        "bounty_reward_min": 500,
+        "bounty_reward_max": 10000,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7569a573-ed6f-4719-a7b0-ec4c37ffd60e",
+            "original_name": "old-logo-avatar.png",
+            "mime_type": "image/png",
+            "size": 10787,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7569a573-ed6f-4719-a7b0-ec4c37ffd60e"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Sovereign Tech Fund",
+            "slug": "sovereign-tech-fund",
+            "description": "Securing Open Source Ecosystem",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
+                "original_name": "stf-avatar-1-short copy.png",
+                "mime_type": "image/png",
+                "size": 12477,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "GLib",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "glib-networking",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Swiss Post",
+        "slug": "swiss-post",
+        "country": "CH",
+        "activity_area": "Transportation",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 757,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
+        "scopes_count": 8,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9fe0f712-4798-435e-9df4-39e9a12e427e",
+            "original_name": "Post_Logo_digital_RGB (1).png",
+            "mime_type": "image/png",
+            "size": 12204,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9fe0f712-4798-435e-9df4-39e9a12e427e"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Swiss Post",
+            "slug": "swiss-post",
+            "description": "Bug Bounty Post - Securing Digital Trust",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "6dc5820f-f66e-44f4-a34f-359295db4bc7",
+                "original_name": "Post_Logo_digital_RGB300.png",
+                "mime_type": "image/png",
+                "size": 3801,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/6dc5820f-f66e-44f4-a34f-359295db4bc7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://account.post.ch",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://shop.post.ch/shop",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/ekp-web/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/zopa/app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/ele-klp/ele/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Bug Bounty Program - BlaBlaCar",
         "slug": "bug-bounty-program-blablacar",
         "country": "FR",
@@ -110,470 +1562,6 @@
             {
                 "scope": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
                 "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Swiss Post",
-        "slug": "swiss-post",
-        "country": "CH",
-        "activity_area": "Transportation",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 756,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 10000,
-        "scopes_count": 8,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9fe0f712-4798-435e-9df4-39e9a12e427e",
-            "original_name": "Post_Logo_digital_RGB (1).png",
-            "mime_type": "image/png",
-            "size": 12204,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9fe0f712-4798-435e-9df4-39e9a12e427e"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Swiss Post",
-            "slug": "swiss-post",
-            "description": "Bug Bounty Post - Securing Digital Trust",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "6dc5820f-f66e-44f4-a34f-359295db4bc7",
-                "original_name": "Post_Logo_digital_RGB300.png",
-                "mime_type": "image/png",
-                "size": 3801,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/6dc5820f-f66e-44f4-a34f-359295db4bc7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://account.post.ch",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://shop.post.ch/shop",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/ekp-web/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/zopa/app/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/ele-klp/ele/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Spacelift.io - Bug Bounty Program",
-        "slug": "spacelift-io-bug-bounty-program",
-        "country": "US",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 75,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3600,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "2048c721-7498-4aa1-aca0-778d0f6b0495",
-            "original_name": "logo-light.jpg",
-            "mime_type": "image/jpeg",
-            "size": 32781,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/2048c721-7498-4aa1-aca0-778d0f6b0495"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Spacelift INC",
-            "slug": "spacelift-inc",
-            "description": "Spacelift is a sophisticated CI/CD platform for Terraform, CloudFormation, Pulumi, and Kubernetes",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://*.app.spacelift.dev",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "User Management",
-                "scope_type": "application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "MFA",
-                "scope_type": "application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "Multi VCS",
-                "scope_type": "application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Harman International Lifestyle JBL",
-        "slug": "harman-international-public-bug-bounty",
-        "country": "US",
-        "activity_area": "Manufacturing",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 91,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 4000,
-        "scopes_count": 25,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "e8c7820f-2474-4856-89ad-313b6789fc09",
-            "original_name": "harman-logo.PNG",
-            "mime_type": "image/png",
-            "size": 39950,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/e8c7820f-2474-4856-89ad-313b6789fc09"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Harman International",
-            "slug": "harman-international",
-            "description": "HARMAN designs and engineers c\u200bonnected products and solutions for automakers, consumers, and enterprises worldwide, including connected car systems, audio and visual products, enterprise automat\u200bion solutions; and connected services. Our talented workforce and innovation strength create value for our stakeholders by enabli\u200bng rich experiences through the connected car, connected enterprise and connected lifestyle.  Audi\u200b\u200bophiles from every generation call on HARMAN to deliver the best in sound in the studio and on the stage, at home and on the go. HARMAN\u2019s portfolio of legendary audio brands includes AKG\u00ae, Harman Kardon\u00ae, Infinity\u00ae, JBL\u00ae, Lexicon\u00ae, Mark Levinson\u00aeand Revel\u00ae. More than 50 million vehicles on the road today enjoy an enhanced driving experience, thanks to HARMAN audio and infotainment. We extend the same spirit of innovation to the world\u2019s leading performance and sporting venues, providing everyone with the best seats in the house.  Seizing the rich opportunities of today\u2019s global markets requires more than legendary sound. HARMAN has reshaped our organization and cost structure to make the Company more agile in a changing world and addressed the rising importance of highly integrated, software-rich products and services. Most importantly, our track record of innovation, which has distinguished HARMAN and its premium audio and infotainment brands for more than 60 years, continues.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "9b1ebb29-0de1-4e52-952d-15b4acc0c111",
-                "original_name": "harman-logo.PNG",
-                "mime_type": "image/png",
-                "size": 39950,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/9b1ebb29-0de1-4e52-952d-15b4acc0c111"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "Device: JBL Bar 300",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Device: JBL Bar 500",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Device: JBL Bar 700",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Device: JBL Bar 800",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Device: JBL Bar 1000",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Device: JBL Bar 1300",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "a1ttqkupgmaxeg-ats.iot.us-east-1.amazonaws.com",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "a1ttqkupgmaxeg-ats.iot.ap-east-1.amazonaws.com",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "lsaconsumerevents2.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "lsaconsumerevents3.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "lsaconsumerevents1.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "events.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "ota-staging.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "ota.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "apis.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/jbl-one/id1610239857",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.jbl.oneapp&hl=fr&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "JBL Authentics 200",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "JBL Authentics 300",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "JBL Authentics 500",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "JBL Boombox 3 Wi-Fi",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "JBL Charge 5 Wi-Fi",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "JBL PartyBox Ultimate",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "edgeapis.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "things.onecloud.harman.com",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "ATG Public Bug Bounty Program",
-        "slug": "atg-public-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 171,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 4000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "635dd0a3-7641-4e12-a41f-56cdb25e3f3f",
-            "original_name": "atg-logo-ywh-4.PNG",
-            "mime_type": "image/png",
-            "size": 320447,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/635dd0a3-7641-4e12-a41f-56cdb25e3f3f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ATG",
-            "slug": "atg",
-            "description": "ATG is the gaming company that knows horse racing. The company was founded in 1974 with the mission to safeguard the long-term development of trotting and thoroughbred racing by offering responsible gambling. ATG has provided quality excitement and entertainment to the Swedish people since the first bet was placed. The company intends to continue doing so. Our vision is to deliver the world\u2019s best gaming experiences. Our offering is: exciting gaming experiences in a fair and convenient manner.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "53ff10cc305474172ae6d66151d4da65",
-                "original_name": "vinnie.PNG",
-                "mime_type": "image/png",
-                "size": 114496,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/53ff10cc305474172ae6d66151d4da65"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.atg.se",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.atg.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.atg.se",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "iam.atg.se",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/se/app/atg/id1434660322",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/se/app/atg-live/id1608156355",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
-                "scope_type": "mobile-application-android",
                 "asset_value": "LOW",
                 "report_count": null
             }
@@ -1098,98 +2086,6 @@
         ]
     },
     {
-        "title": "Telenor Sweden Public Bug Bounty Program",
-        "slug": "telenor-sweden-public-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 637,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 4000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
-            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
-            "mime_type": "image/jpeg",
-            "size": 17150,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Telenor Sweden",
-            "slug": "telenor-sweden",
-            "description": "Telecommunication",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
-                "original_name": "telenor.png",
-                "mime_type": "image/png",
-                "size": 5381,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.telenor.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.bredbandsbolaget.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.europolitan.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.ownit.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.work",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.io",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "ZECIBLE PUBLIC BUG BOUNTY PROGRAM",
         "slug": "zecible-public-bug-bounty-program",
         "country": "FR",
@@ -1410,68 +2306,6 @@
         ]
     },
     {
-        "title": "GNOME Bug Bounty Program",
-        "slug": "gnome-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1,
-        "bounty_reward_min": 500,
-        "bounty_reward_max": 10000,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7569a573-ed6f-4719-a7b0-ec4c37ffd60e",
-            "original_name": "old-logo-avatar.png",
-            "mime_type": "image/png",
-            "size": 10787,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7569a573-ed6f-4719-a7b0-ec4c37ffd60e"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Sovereign Tech Fund",
-            "slug": "sovereign-tech-fund",
-            "description": "Securing Open Source Ecosystem",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
-                "original_name": "stf-avatar-1-short copy.png",
-                "mime_type": "image/png",
-                "size": 12477,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "GLib",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "glib-networking",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Kiwai",
         "slug": "kiwai",
         "country": "FR",
@@ -1553,182 +2387,6 @@
                 "scope": "https://www.kiwai-normandie.fr/",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Sequoia PGP Bug Bounty Program",
-        "slug": "sequoia-pgp-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 5,
-        "bounty_reward_min": 500,
-        "bounty_reward_max": 10000,
-        "scopes_count": 21,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "ca310a3b-b08d-4fb6-aa8a-68422114b196",
-            "original_name": "logo.png",
-            "mime_type": "image/png",
-            "size": 6080,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/ca310a3b-b08d-4fb6-aa8a-68422114b196"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Sovereign Tech Fund",
-            "slug": "sovereign-tech-fund",
-            "description": "Securing Open Source Ecosystem",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "1d259189-2c16-46e6-bfd8-ec45a89f9e90",
-                "original_name": "stf-avatar-1-short copy.png",
-                "mime_type": "image/png",
-                "size": 12477,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/1d259189-2c16-46e6-bfd8-ec45a89f9e90"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "buffered-reader",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "nettle-sys",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "nettle-rs",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "SHA1-CD",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-openpgp",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-autocrypt",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-ipc",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-net",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Shared OpenPGP Certificate Directory",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-cert-store",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-wot",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-policy-config",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "rpm-sequoia",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sqv",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sq",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sqop",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "octopus",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sequoia-git",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "OpenPGP Cert Directory Specification",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Web of Trust Specification",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Sequoia git Specification",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -2335,236 +2993,6 @@
             },
             {
                 "scope": "www.ovh.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "VFS Global Bug Bounty Program",
-        "slug": "vfs-global-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 900,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1500,
-        "scopes_count": 30,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "1fbbc14c-7938-48e8-b78e-dd478048dde2",
-            "original_name": "vfs-global.jpg",
-            "mime_type": "image/jpeg",
-            "size": 36470,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1fbbc14c-7938-48e8-b78e-dd478048dde2"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "VFS GLOBAL SERVICES PVT. LTD.",
-            "slug": "vfs-global-services-pvt-ltd",
-            "description": "VFS GLOBAL SERVICES PVT. LTD.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "aca47786-81f9-4a0b-a7f1-1c23177d11d1",
-                "original_name": "0x0.png",
-                "mime_type": "image/png",
-                "size": 56676,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/aca47786-81f9-4a0b-a7f1-1c23177d11d1"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.vfsglobal.(com|co.uk|ca)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vfsevisa.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "onevasco.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vascoworldwide.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vfsvisaonline.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.dvpc.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.vfsvisaservicesrussia.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.directverify.in",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "www.docswallet.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "biometservices.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "agents.tasheer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/GlobalAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/Global-Admin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://rusadminappt.vfsglobal.com/Global-Admin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/AustraliaApptAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/GAR1Ph1ApptAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://onlinena.vfsglobal.dz/AppointmentAdmin/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://gaadmin.vfsglobal.com/DHAAppointmentAdmin",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://equatorialguinea-evisa.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://online.srilankaevisa.lk/lka/en/login",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://online.mustaqel.qa/qat/en/login",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://appointment.vfsglobal.com.dz/forms/FRDZ/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://vfs.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://cicforms.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://vfsforms.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://vfseu.mioot.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.vfsvisaservice.com/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://indonesiavoa.vfsevisa.id/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.vfsglobalservices-germany.com/Global-Appointment/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
@@ -3526,122 +3954,6 @@
             {
                 "scope": "Any resource created or accessed with the Outscale Cloud, on all regions",
                 "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Deezer Bug Bounty Program",
-        "slug": "deezer-bug-bounty-program-2019",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 503,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
-            "original_name": "ywh4.png",
-            "mime_type": "image/png",
-            "size": 73547,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Deezer",
-            "slug": "deezer",
-            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
-                "original_name": "ywh sqare.png",
-                "mime_type": "image/png",
-                "size": 15291,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "connect.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "payment.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Deezer App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Deezer App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "zen.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.deezer.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.dzcdn.net",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Zen App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Zen App",
-                "scope_type": "mobile-application-ios",
                 "asset_value": "LOW",
                 "report_count": null
             }
