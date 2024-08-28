@@ -1,8 +1,8 @@
 [
     {
-        "title": "Maya - Public Bug Bounty Program",
-        "slug": "maya-public-bug-bounty-program",
-        "country": "PH",
+        "title": "Coindcx - Bug Bounty Program",
+        "slug": "coindcx-bug-bounty-program",
+        "country": "IN",
         "activity_area": "Finance/Assurance",
         "average_first_response_time": 1,
         "type": "bug-bounty",
@@ -19,23 +19,23 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 17,
+        "reports_count": 64,
         "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 9,
+        "bounty_reward_max": 2000,
+        "scopes_count": 4,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "a23b5dce-642a-4ee6-959a-3521cdba6f04",
-            "original_name": "48ef3670-0a14-4d2d-b47d-53d22e0d864e.jpg",
-            "mime_type": "image/jpeg",
-            "size": 27858,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a23b5dce-642a-4ee6-959a-3521cdba6f04"
+            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
+            "original_name": "coindcx.png",
+            "mime_type": "image/png",
+            "size": 3849,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
         },
         "event": null,
         "business_unit": {
-            "name": "Maya",
-            "slug": "maya",
-            "description": "Mobile Wallet / Bank Application",
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
             "currency": "USD",
             "already_activate_product": true,
             "logo": {
@@ -48,57 +48,445 @@
         },
         "scopes": [
             {
-                "scope": "https://play.google.com/store/apps/details?id=com.paymaya",
+                "scope": "*.coindcx.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.coindcx.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "YesWeHack Dojo",
+        "slug": "dojo",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 1386,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
+            "original_name": "YWH_DOJO_pgm.PNG",
+            "mime_type": "image/png",
+            "size": 21970,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/85c3578b-bc74-497f-be7a-6bde95722acc"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "YesWeHack Dojo",
+            "slug": "dojo-by-yes-we-hack",
+            "description": "The CTF Dojo platform makes it possible to recreate vulnerabilities from real environments. Each month, we'll publish a new challenge. The top three write-ups will win an exclusive swag pack with goodies and more... \ud83c\udf81",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5c59bf03-e5ff-4291-9f2d-3516ed672e4c",
+                "original_name": "YWH_DOJO_Icon.png",
+                "mime_type": "image/png",
+                "size": 750022,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5c59bf03-e5ff-4291-9f2d-3516ed672e4c"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-35",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 610,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 50000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
+            "original_name": "D - white-2.jpg",
+            "mime_type": "image/jpeg",
+            "size": 70202,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "mime_type": "image/png",
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.doctolib.(fr|de|it)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Special scenarios (see description)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.siilo.com",
+                "scope_type": "application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "TeamViewer - Bounty Program",
+        "slug": "teamviewer-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 275,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "674ffa14-c868-40ff-b36f-3f7f5996ab4e",
+            "original_name": "tv-thumbnail-1080x1080.jpg",
+            "mime_type": "image/jpeg",
+            "size": 361357,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/674ffa14-c868-40ff-b36f-3f7f5996ab4e"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "TeamViewer Germany GmbH",
+            "slug": "teamviewer-germany-gmbh",
+            "description": "The TeamViewer suite of remote connectivity, augmented reality, IT management, and customer-first engagement solutions empowers you to connect to any device to support anyone, any process, or anything \u2014 from anywhere, anytime.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7a8956cd-1f6f-49d7-bc7a-bb188b8964ff",
+                "original_name": "tvw_square.jpeg",
+                "mime_type": "image/jpeg",
+                "size": 9535,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7a8956cd-1f6f-49d7-bc7a-bb188b8964ff"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.teamviewer.com/en/products/teamviewer/",
+                "scope_type": "application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://web.teamviewer.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://account.teamviewer.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://login.teamviewer.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
                 "scope_type": "mobile-application-android",
                 "asset_value": "HIGH",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "HIGH",
                 "report_count": null
             },
             {
-                "scope": "https://appgallery.huawei.com/app/C101186357",
-                "scope_type": "mobile-application",
+                "scope": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
+                "scope_type": "mobile-application-ios",
                 "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": true,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 180,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.gov.sg",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://api.paymaya.com/",
-                "scope_type": "api",
-                "asset_value": "HIGH",
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Telenor Sweden Public Bug Bounty Program",
+        "slug": "telenor-sweden-public-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 680,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 4000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
+            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
+            "mime_type": "image/jpeg",
+            "size": 17150,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Telenor Sweden",
+            "slug": "telenor-sweden",
+            "description": "Telecommunication",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
+                "original_name": "telenor.png",
+                "mime_type": "image/png",
+                "size": 5381,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.telenor.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://pg.paymaya.com",
-                "scope_type": "api",
-                "asset_value": "HIGH",
+                "scope": "*.bredbandsbolaget.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://payoutapi.maya.ph/",
-                "scope_type": "api",
-                "asset_value": "HIGH",
+                "scope": "*.europolitan.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://op.paymaya.com/",
-                "scope_type": "api",
-                "asset_value": "HIGH",
+                "scope": "*.ownit.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://connect.paymaya.com/",
-                "scope_type": "api",
-                "asset_value": "HIGH",
+                "scope": "*.vimla.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://paymayabiller-prod.paymaya.com/",
-                "scope_type": "api",
-                "asset_value": "HIGH",
+                "scope": "*.vimla.work",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.io",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -123,7 +511,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1044,
+        "reports_count": 1047,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1500,
         "scopes_count": 28,
@@ -322,6 +710,306 @@
         ]
     },
     {
+        "title": "Swapcard",
+        "slug": "swapcard",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 409,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
+            "original_name": "swapcard.png",
+            "mime_type": "image/png",
+            "size": 21772,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/90edd40b-95fe-4e2f-8ae6-7538d3982a75"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Swapcard",
+            "slug": "swapcard",
+            "description": "Swapcard is an event app & matchmaking platform powered by artificial intelligence.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "ea65f8954830cf9737be58af4b85f96b",
+                "original_name": "logo.png",
+                "mime_type": "image/png",
+                "size": 22658,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/ea65f8954830cf9737be58af4b85f96b"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "api.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "chat-api.swapcard.com/graphql",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "developer.swapcard.com/event-admin/graphql",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "login.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "studio-api.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "app.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "studio.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "team.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "img.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "t.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Alasco GmbH - Bug Bounty Program",
+        "slug": "alasco-gmbh-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 4,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 64,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 1000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "03c4827d-842f-4419-9d41-920aeedde9ab",
+            "original_name": "logo-alasco.png",
+            "mime_type": "image/png",
+            "size": 12747,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/03c4827d-842f-4419-9d41-920aeedde9ab"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Alasco GmbH",
+            "slug": "alasco-gmbh",
+            "description": "Make your real estate projects more successful by managing costs, profits and ESG data from your assets in one software.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "b82003c8-ffe1-42e3-88e7-6615ba7884f9",
+                "original_name": "logo-alasco.png",
+                "mime_type": "image/png",
+                "size": 12747,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/b82003c8-ffe1-42e3-88e7-6615ba7884f9"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "app.alasco.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.alasco.de",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.alasco.de",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.alasco.rocks",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Maya - Public Bug Bounty Program",
+        "slug": "maya-public-bug-bounty-program",
+        "country": "PH",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 18,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "a23b5dce-642a-4ee6-959a-3521cdba6f04",
+            "original_name": "48ef3670-0a14-4d2d-b47d-53d22e0d864e.jpg",
+            "mime_type": "image/jpeg",
+            "size": 27858,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a23b5dce-642a-4ee6-959a-3521cdba6f04"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Maya",
+            "slug": "maya",
+            "description": "Mobile Wallet / Bank Application",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.paymaya",
+                "scope_type": "mobile-application-android",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/am/app/maya-your-all-in-one-money-app/id991673877",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://appgallery.huawei.com/app/C101186357",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.paymaya.com/",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://pg.paymaya.com",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://payoutapi.maya.ph/",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://op.paymaya.com/",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://connect.paymaya.com/",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://paymayabiller-prod.paymaya.com/",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "DRACOON \u2013\u00a0Bug Bounty Program",
         "slug": "dracoon-bug-bounty-program",
         "country": "DE",
@@ -341,7 +1029,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 85,
+        "reports_count": 86,
         "bounty_reward_min": 1,
         "bounty_reward_max": 5000,
         "scopes_count": 12,
@@ -444,57 +1132,93 @@
         ]
     },
     {
-        "title": "YesWeHack Dojo",
-        "slug": "dojo",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
+        "title": "DANA Bug Bounty Program",
+        "slug": "dana-bug-bounty-program",
+        "country": "ID",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
         "public": true,
-        "bounty": false,
+        "bounty": true,
         "gift": false,
-        "hall_of_fame": true,
+        "hall_of_fame": false,
         "hacktivity": false,
-        "report_collaboration_active": false,
+        "report_collaboration_active": true,
         "pid": null,
         "secured": false,
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1380,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 1,
+        "reports_count": 148,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 7,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "85c3578b-bc74-497f-be7a-6bde95722acc",
-            "original_name": "YWH_DOJO_pgm.PNG",
+            "name": "1f3d52f8-9425-4b68-afe3-a30b752fa13c",
+            "original_name": "dana-meta-logo.png",
             "mime_type": "image/png",
-            "size": 21970,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/85c3578b-bc74-497f-be7a-6bde95722acc"
+            "size": 24865,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/1f3d52f8-9425-4b68-afe3-a30b752fa13c"
         },
         "event": null,
         "business_unit": {
-            "name": "YesWeHack Dojo",
-            "slug": "dojo-by-yes-we-hack",
-            "description": "The CTF Dojo platform makes it possible to recreate vulnerabilities from real environments. Each month, we'll publish a new challenge. The top three write-ups will win an exclusive swag pack with goodies and more... \ud83c\udf81",
-            "currency": "EUR",
+            "name": "DANA Indonesia",
+            "slug": "dana-indonesia",
+            "description": "DANA is an Indonesian digital wallet that is safe, trusted and reliable anytime, anywhere. With DANA, you can do non-cash and even non-card transactions for your daily needs, from offline payment transactions, to paying bills and installments online. DANA also has many features that make your transaction experience more practical and fast.  DANA as Indonesia\u2019s digital wallet is currently holding a bug bounty program with the scope and rules of the game as written below. Please read it carefully so that your report can be recognized as a valid report.",
+            "currency": "USD",
             "already_activate_product": true,
             "logo": {
-                "name": "5c59bf03-e5ff-4291-9f2d-3516ed672e4c",
-                "original_name": "YWH_DOJO_Icon.png",
-                "mime_type": "image/png",
-                "size": 750022,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5c59bf03-e5ff-4291-9f2d-3516ed672e4c"
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
             }
         },
         "scopes": [
             {
-                "scope": "https://dojo-yeswehack.com/challenge-of-the-month/dojo-35",
+                "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/id/app/dana/id1437123008",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://appgallery.huawei.com/#/app/C100570215",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "mgs-gw.m.dana.id",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api-saas.dana.id",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "sec.m.dana.id",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "m.dana.id",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -550,142 +1274,6 @@
             {
                 "scope": "https://pprd.cybermalveillance.gouv.fr",
                 "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Alasco GmbH - Bug Bounty Program",
-        "slug": "alasco-gmbh-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 4,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 63,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 1000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "03c4827d-842f-4419-9d41-920aeedde9ab",
-            "original_name": "logo-alasco.png",
-            "mime_type": "image/png",
-            "size": 12747,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/03c4827d-842f-4419-9d41-920aeedde9ab"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Alasco GmbH",
-            "slug": "alasco-gmbh",
-            "description": "Make your real estate projects more successful by managing costs, profits and ESG data from your assets in one software.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "b82003c8-ffe1-42e3-88e7-6615ba7884f9",
-                "original_name": "logo-alasco.png",
-                "mime_type": "image/png",
-                "size": 12747,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/b82003c8-ffe1-42e3-88e7-6615ba7884f9"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "app.alasco.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.alasco.de",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.alasco.de",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.alasco.rocks",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "GovTech - Vulnerability Disclosure Programme",
-        "slug": "govtech-vulnerability-disclosure-programme-policy",
-        "country": "SG",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": true,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 178,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
-            "original_name": "govtech_logo1.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 88875,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Government Technology Agency of Singapore",
-            "slug": "government-technology-agency-of-singapore",
-            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
-                "original_name": "GovTech300x300.png",
-                "mime_type": "image/png",
-                "size": 61833,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.gov.sg",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
@@ -992,110 +1580,6 @@
         ]
     },
     {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 607,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 50000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
-            "original_name": "D - white-2.jpg",
-            "mime_type": "image/jpeg",
-            "size": 70202,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
-                "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.siilo.com",
-                "scope_type": "application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Dailymotion public bug bounty",
         "slug": "dailymotion-public-bug-bounty",
         "country": "FR",
@@ -1329,190 +1813,6 @@
         "scopes": [
             {
                 "scope": "https://www.bookbeat.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Telenor Sweden Public Bug Bounty Program",
-        "slug": "telenor-sweden-public-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 678,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 4000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
-            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
-            "mime_type": "image/jpeg",
-            "size": 17150,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Telenor Sweden",
-            "slug": "telenor-sweden",
-            "description": "Telecommunication",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
-                "original_name": "telenor.png",
-                "mime_type": "image/png",
-                "size": 5381,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.telenor.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.bredbandsbolaget.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.europolitan.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.ownit.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.work",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.io",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DANA Bug Bounty Program",
-        "slug": "dana-bug-bounty-program",
-        "country": "ID",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 147,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "1f3d52f8-9425-4b68-afe3-a30b752fa13c",
-            "original_name": "dana-meta-logo.png",
-            "mime_type": "image/png",
-            "size": 24865,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/1f3d52f8-9425-4b68-afe3-a30b752fa13c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "DANA Indonesia",
-            "slug": "dana-indonesia",
-            "description": "DANA is an Indonesian digital wallet that is safe, trusted and reliable anytime, anywhere. With DANA, you can do non-cash and even non-card transactions for your daily needs, from offline payment transactions, to paying bills and installments online. DANA also has many features that make your transaction experience more practical and fast.  DANA as Indonesia\u2019s digital wallet is currently holding a bug bounty program with the scope and rules of the game as written below. Please read it carefully so that your report can be recognized as a valid report.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://play.google.com/store/apps/details?id=id.dana&hl=en",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/id/app/dana/id1437123008",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://appgallery.huawei.com/#/app/C100570215",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "mgs-gw.m.dana.id",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api-saas.dana.id",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "sec.m.dana.id",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "m.dana.id",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
                 "report_count": null
@@ -2380,110 +2680,6 @@
         ]
     },
     {
-        "title": "TeamViewer - Bounty Program",
-        "slug": "teamviewer-bounty-program",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 272,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 10000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "674ffa14-c868-40ff-b36f-3f7f5996ab4e",
-            "original_name": "tv-thumbnail-1080x1080.jpg",
-            "mime_type": "image/jpeg",
-            "size": 361357,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/674ffa14-c868-40ff-b36f-3f7f5996ab4e"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "TeamViewer Germany GmbH",
-            "slug": "teamviewer-germany-gmbh",
-            "description": "The TeamViewer suite of remote connectivity, augmented reality, IT management, and customer-first engagement solutions empowers you to connect to any device to support anyone, any process, or anything \u2014 from anywhere, anytime.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7a8956cd-1f6f-49d7-bc7a-bb188b8964ff",
-                "original_name": "tvw_square.jpeg",
-                "mime_type": "image/jpeg",
-                "size": 9535,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7a8956cd-1f6f-49d7-bc7a-bb188b8964ff"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.teamviewer.com/en/products/teamviewer/",
-                "scope_type": "application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://web.teamviewer.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://account.teamviewer.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://login.teamviewer.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.teamviewer.market.mobile&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.quicksupport.market&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.teamviewer.host.market&hl=en&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/de/app/teamviewer-remote-control/id692035811",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Yes We Hack",
         "slug": "yes-we-hack",
         "country": "FR",
@@ -2753,80 +2949,6 @@
                 "scope": "https://emistores.pinelabs.com/",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Coindcx - Bug Bounty Program",
-        "slug": "coindcx-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 63,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
-            "original_name": "coindcx.png",
-            "mime_type": "image/png",
-            "size": 3849,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.coindcx.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.coindcx.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -4094,128 +4216,6 @@
             {
                 "scope": "https://apps.apple.com/fr/app/cryptobox/id972602802",
                 "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Swapcard",
-        "slug": "swapcard",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 409,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
-            "original_name": "swapcard.png",
-            "mime_type": "image/png",
-            "size": 21772,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/90edd40b-95fe-4e2f-8ae6-7538d3982a75"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Swapcard",
-            "slug": "swapcard",
-            "description": "Swapcard is an event app & matchmaking platform powered by artificial intelligence.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "ea65f8954830cf9737be58af4b85f96b",
-                "original_name": "logo.png",
-                "mime_type": "image/png",
-                "size": 22658,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/ea65f8954830cf9737be58af4b85f96b"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "api.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "chat-api.swapcard.com/graphql",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "developer.swapcard.com/event-admin/graphql",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "login.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "studio-api.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "app.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "studio.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "team.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "img.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "t.swapcard.com",
-                "scope_type": "api",
                 "asset_value": "MEDIUM",
                 "report_count": null
             }
