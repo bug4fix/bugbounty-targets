@@ -1,5 +1,103 @@
 [
     {
+        "title": "Swiss Post",
+        "slug": "swiss-post",
+        "country": "CH",
+        "activity_area": "Transportation",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 849,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 10000,
+        "scopes_count": 8,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9fe0f712-4798-435e-9df4-39e9a12e427e",
+            "original_name": "Post_Logo_digital_RGB (1).png",
+            "mime_type": "image/png",
+            "size": 12204,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9fe0f712-4798-435e-9df4-39e9a12e427e"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Swiss Post",
+            "slug": "swiss-post",
+            "description": "Bug Bounty Post - Securing Digital Trust",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "6dc5820f-f66e-44f4-a34f-359295db4bc7",
+                "original_name": "Post_Logo_digital_RGB300.png",
+                "mime_type": "image/png",
+                "size": 3801,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/6dc5820f-f66e-44f4-a34f-359295db4bc7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://account.post.ch",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://shop.post.ch/shop",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/ekp-web/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/zopa/app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://service.post.ch/ele-klp/ele/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Infomaniak Bug Bounty program",
         "slug": "infomaniak-bug-bounty-program",
         "country": "CH",
@@ -19,7 +117,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 625,
+        "reports_count": 627,
         "bounty_reward_min": 100,
         "bounty_reward_max": 5000,
         "scopes_count": 32,
@@ -242,6 +340,80 @@
         ]
     },
     {
+        "title": "Coindcx - Bug Bounty Program",
+        "slug": "coindcx-bug-bounty-program",
+        "country": "IN",
+        "activity_area": "Finance/Assurance",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 84,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 4,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
+            "original_name": "coindcx.png",
+            "mime_type": "image/png",
+            "size": 3849,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Coindcx",
+            "slug": "coindcx",
+            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": null,
+                "original_name": null,
+                "mime_type": null,
+                "size": null,
+                "url": null
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.coindcx.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "api.coindcx.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "DANA Bug Bounty Program",
         "slug": "dana-bug-bounty-program",
         "country": "ID",
@@ -261,7 +433,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 160,
+        "reports_count": 161,
         "bounty_reward_min": 0,
         "bounty_reward_max": 2000,
         "scopes_count": 7,
@@ -328,6 +500,800 @@
             {
                 "scope": "m.dana.id",
                 "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Withings",
+        "slug": "withings-public-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 184,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 3000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "693fb017-ce33-4b3a-bffb-58b5c53b86b6",
+            "original_name": "1681803337624.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 2794,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/693fb017-ce33-4b3a-bffb-58b5c53b86b6"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Withings",
+            "slug": "withings",
+            "description": "French company specialized in connected objects in the field of health.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "898966d6-d0c8-4c3c-a79e-e404963cb341",
+                "original_name": "withings.jpg",
+                "mime_type": "image/jpeg",
+                "size": 2724,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/898966d6-d0c8-4c3c-a79e-e404963cb341"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://wbsapi.withings.net",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://healthmate.withings.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://account.withings.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://app.withings.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://developer.withings.com/dashboard/",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://scalews.withings.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Body Scan scale",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Body Comp scale",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Scanwatch Light",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Scanwatch 2",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Scanwatch Nova",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Scanwatch",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DRACOON \u2013\u00a0Bug Bounty Program",
+        "slug": "dracoon-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 107,
+        "bounty_reward_min": 1,
+        "bounty_reward_max": 5000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "43be16e4-098c-48ee-9756-b8919ae3ad99",
+            "original_name": "signet-1024-squared Kopie.png",
+            "mime_type": "image/png",
+            "size": 15850,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/43be16e4-098c-48ee-9756-b8919ae3ad99"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "DRACOON",
+            "slug": "dracoon",
+            "description": "DRACOON offers secure file sharing and collaboration services with two products, DRACOON Cloud and DRACOON Server. Both products support built-in end-to-end encryption and offer many features tailored for large organizations, such as a complex roles and permissions system, SSO integration, auditing and reporting features.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "abf41305-f929-48bc-856f-bcf2f3ed9c1f",
+                "original_name": "signet-1024-squared Kopie.png",
+                "mime_type": "image/png",
+                "size": 15850,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/abf41305-f929-48bc-856f-bcf2f3ed9c1f"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://bounty-cloud.dracoon.app/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/oauth",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://0-2744452194.s3.nbg01.de.dracoon.io",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/mediaserver",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/reporting/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/webdav",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-cloud.dracoon.app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/oauth",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/reporting/api",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/webdav",
+                "scope_type": "other",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-server.dracoon.app/",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
+        "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 162,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "4ea4666a-5d5a-4065-aec0-c6eaec917b94",
+            "original_name": "capture-d-ecran-de-2021-10-29-14-15-06.png",
+            "mime_type": "image/png",
+            "size": 4374,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/4ea4666a-5d5a-4065-aec0-c6eaec917b94"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "CYBERMALVEILLANCE.GOUV.FR",
+            "slug": "acyma",
+            "description": "Cybermalveillance.gouv.fr is an initiative of the French Government, launched in 2017, to respond to the uprising number of cyber-malicious-acts in France.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "b1264f8e8151d994bb3e6df51e956357",
+                "original_name": "logo-acyma2.png",
+                "mime_type": "image/png",
+                "size": 19953,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/b1264f8e8151d994bb3e6df51e956357"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://pprd.cybermalveillance.gouv.fr",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "ownCloud - Bug Bounty Program",
+        "slug": "owncloud-bug-bounty-program",
+        "country": "DE",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 60,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 5000,
+        "scopes_count": 18,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c0c85dd9-2913-4241-91e3-73e81a3d4ab2",
+            "original_name": "owncloud.jpg",
+            "mime_type": "image/jpeg",
+            "size": 5637,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c0c85dd9-2913-4241-91e3-73e81a3d4ab2"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "ownCloud",
+            "slug": "owncloud",
+            "description": "ownCloud GmbH is the company behind the ownCloud Project - the most downloaded open source project for data and file sync, share and view.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "4a48d029-b76e-4633-a731-a8bcfd1e777f",
+                "original_name": "5fd11c324df07e597eb78f6408fe2c2c871c1503f479ab4fa8446caf0eb02322.png",
+                "mime_type": "image/png",
+                "size": 5832,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/4a48d029-b76e-4633-a731-a8bcfd1e777f"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://owncloud.org/install/#install-clients",
+                "scope_type": "application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.owncloud.android",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/app/id1359583808",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/customgroups",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/guests",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/richdocuments",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/notifications",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/client",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/core",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/gallery",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/ocis",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/user_ldap",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/oauth2",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/activity",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/updater",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/core/tree/master/apps/files",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/android",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/owncloud/ios-app",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Dailymotion public bug bounty",
+        "slug": "dailymotion-public-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 1097,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
+            "original_name": "dailymotion-logo-ogtag-new.png",
+            "mime_type": "image/png",
+            "size": 84668,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Dailymotion",
+            "slug": "dailymotion",
+            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "34d87a778f698f059187586302527e70",
+                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
+                "mime_type": "image/png",
+                "size": 6885,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.api.dailymotion.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "developer.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dmcdn.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "ifttt-adaptor.pub.kube.dm.gg",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "AS41690",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "dmxleo.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dm.gg",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Google Cloud Plateform Instances",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DINUM - Tchap - Bug Bounty Program",
+        "slug": "tchap-public",
+        "country": "FR",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 211,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 8000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc",
+            "original_name": "unnamed-1.png",
+            "mime_type": "image/png",
+            "size": 4950,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
+            "slug": "dinum",
+            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
+                "original_name": "logo-marianne-dinsic-300x300.jpg",
+                "mime_type": "image/jpeg",
+                "size": 45646,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.tchap.gouv.fr",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://matrix.agent.tchap.gouv.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://matrix.agent.*.tchap.gouv.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/tchapgouv",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
+                "scope_type": "mobile-application-android",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/tchap/id1446253779",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.beta.tchap.gouv.fr",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://matrix.i.tchap.gouv.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://matrix.e.tchap.gouv.fr",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Deezer Bug Bounty Program",
+        "slug": "deezer-bug-bounty-program-2019",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 584,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
+            "original_name": "ywh4.png",
+            "mime_type": "image/png",
+            "size": 73547,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Deezer",
+            "slug": "deezer",
+            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
+                "original_name": "ywh sqare.png",
+                "mime_type": "image/png",
+                "size": 15291,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "connect.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "payment.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Deezer App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Deezer App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "zen.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.deezer.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.dzcdn.net",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Zen App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Zen App",
+                "scope_type": "mobile-application-ios",
                 "asset_value": "LOW",
                 "report_count": null
             }
@@ -609,80 +1575,6 @@
                 "scope": "https://www.vfsvisaservice.com/IHC-SouthKorea-Appointment",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Coindcx - Bug Bounty Program",
-        "slug": "coindcx-bug-bounty-program",
-        "country": "IN",
-        "activity_area": "Finance/Assurance",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 83,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 4,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "7a463f4d-61ce-4bdf-8a7e-62b7ca14df72",
-            "original_name": "coindcx.png",
-            "mime_type": "image/png",
-            "size": 3849,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7a463f4d-61ce-4bdf-8a7e-62b7ca14df72"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Coindcx",
-            "slug": "coindcx",
-            "description": "CoinDCX is India\u2019s largest and safest cryptocurrency exchange. Our exchange is built with user experience and security in mind. The KYC and Bank Account verification are done within a few minutes and give users a smooth onboarding experience. We provide users single-point access to a diverse suite of crypto-based financial products and services that are backed by security processes and insurance.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": null,
-                "original_name": null,
-                "mime_type": null,
-                "size": null,
-                "url": null
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.coindcx.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.coindcx.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.coindcx.btc",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -1232,122 +2124,6 @@
         ]
     },
     {
-        "title": "Deezer Bug Bounty Program",
-        "slug": "deezer-bug-bounty-program-2019",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 584,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
-            "original_name": "ywh4.png",
-            "mime_type": "image/png",
-            "size": 73547,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Deezer",
-            "slug": "deezer",
-            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
-                "original_name": "ywh sqare.png",
-                "mime_type": "image/png",
-                "size": 15291,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "connect.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "payment.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Deezer App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Deezer App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "zen.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.deezer.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.dzcdn.net",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Zen App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Zen App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "OVH",
         "slug": "ovh",
         "country": "FR",
@@ -1622,110 +2398,6 @@
         ]
     },
     {
-        "title": "DINUM - Tchap - Bug Bounty Program",
-        "slug": "tchap-public",
-        "country": "FR",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 210,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 8000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc",
-            "original_name": "unnamed-1.png",
-            "mime_type": "image/png",
-            "size": 4950,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/ba26dbf0-87e4-4e11-8b8d-3b1c4c40b0cc"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Direction interminist\u00e9rielle du num\u00e9rique (DINUM)",
-            "slug": "dinum",
-            "description": "The Direction Interminist\u00e9rielle du NUM\u00e9rique (DINUM) is in charge of the French State's digital transformation for the benefit of citizens and civil servants alike, in all its aspects. It supports public services, advises the government and develops common resources.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "0167a559-0c84-49ee-8994-f16020cc6cb3",
-                "original_name": "logo-marianne-dinsic-300x300.jpg",
-                "mime_type": "image/jpeg",
-                "size": 45646,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/0167a559-0c84-49ee-8994-f16020cc6cb3"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.tchap.gouv.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.agent.tchap.gouv.fr",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.agent.*.tchap.gouv.fr",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/tchapgouv",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=fr.gouv.tchap.a&hl=fr",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/tchap/id1446253779",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.beta.tchap.gouv.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.i.tchap.gouv.fr",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://matrix.e.tchap.gouv.fr",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Kiwai",
         "slug": "kiwai",
         "country": "FR",
@@ -1880,128 +2552,6 @@
         ]
     },
     {
-        "title": "DRACOON \u2013\u00a0Bug Bounty Program",
-        "slug": "dracoon-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 105,
-        "bounty_reward_min": 1,
-        "bounty_reward_max": 5000,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "43be16e4-098c-48ee-9756-b8919ae3ad99",
-            "original_name": "signet-1024-squared Kopie.png",
-            "mime_type": "image/png",
-            "size": 15850,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/43be16e4-098c-48ee-9756-b8919ae3ad99"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "DRACOON",
-            "slug": "dracoon",
-            "description": "DRACOON offers secure file sharing and collaboration services with two products, DRACOON Cloud and DRACOON Server. Both products support built-in end-to-end encryption and offer many features tailored for large organizations, such as a complex roles and permissions system, SSO integration, auditing and reporting features.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "abf41305-f929-48bc-856f-bcf2f3ed9c1f",
-                "original_name": "signet-1024-squared Kopie.png",
-                "mime_type": "image/png",
-                "size": 15850,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/abf41305-f929-48bc-856f-bcf2f3ed9c1f"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://bounty-cloud.dracoon.app/api",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-cloud.dracoon.app/oauth",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://0-2744452194.s3.nbg01.de.dracoon.io",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-cloud.dracoon.app/mediaserver",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-cloud.dracoon.app/reporting/api",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-cloud.dracoon.app/webdav",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-cloud.dracoon.app/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-server.dracoon.app/api",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-server.dracoon.app/oauth",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-server.dracoon.app/reporting/api",
-                "scope_type": "api",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-server.dracoon.app/webdav",
-                "scope_type": "other",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-server.dracoon.app/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "ATG Public Bug Bounty Program",
         "slug": "atg-public-bug-bounty-program",
         "country": "SE",
@@ -2089,104 +2639,6 @@
                 "scope": "https://play.google.com/store/apps/details?id=se.atg.live&hl=en&gl=SE",
                 "scope_type": "mobile-application-android",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Swiss Post",
-        "slug": "swiss-post",
-        "country": "CH",
-        "activity_area": "Transportation",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 848,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 10000,
-        "scopes_count": 8,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9fe0f712-4798-435e-9df4-39e9a12e427e",
-            "original_name": "Post_Logo_digital_RGB (1).png",
-            "mime_type": "image/png",
-            "size": 12204,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9fe0f712-4798-435e-9df4-39e9a12e427e"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Swiss Post",
-            "slug": "swiss-post",
-            "description": "Bug Bounty Post - Securing Digital Trust",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "6dc5820f-f66e-44f4-a34f-359295db4bc7",
-                "original_name": "Post_Logo_digital_RGB300.png",
-                "mime_type": "image/png",
-                "size": 3801,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/6dc5820f-f66e-44f4-a34f-359295db4bc7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://account.post.ch",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://shop.post.ch/shop",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/ekp-web/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/zopa/app/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.nth.swisspost&hl=de_CH&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ch/app/die-post/id378676700",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://billingonline.post.ch/OnlinePayment/Web/v1/BOI",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://service.post.ch/ele-klp/ele/",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
                 "report_count": null
             }
         ]
@@ -2834,178 +3286,6 @@
         ]
     },
     {
-        "title": "Dailymotion public bug bounty",
-        "slug": "dailymotion-public-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1096,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
-            "original_name": "dailymotion-logo-ogtag-new.png",
-            "mime_type": "image/png",
-            "size": 84668,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Dailymotion",
-            "slug": "dailymotion",
-            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "34d87a778f698f059187586302527e70",
-                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
-                "mime_type": "image/png",
-                "size": 6885,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.api.dailymotion.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "developer.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dmcdn.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "ifttt-adaptor.pub.kube.dm.gg",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "AS41690",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "dmxleo.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dm.gg",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Google Cloud Plateform Instances",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
-        "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 161,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "4ea4666a-5d5a-4065-aec0-c6eaec917b94",
-            "original_name": "capture-d-ecran-de-2021-10-29-14-15-06.png",
-            "mime_type": "image/png",
-            "size": 4374,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/4ea4666a-5d5a-4065-aec0-c6eaec917b94"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "CYBERMALVEILLANCE.GOUV.FR",
-            "slug": "acyma",
-            "description": "Cybermalveillance.gouv.fr is an initiative of the French Government, launched in 2017, to respond to the uprising number of cyber-malicious-acts in France.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "b1264f8e8151d994bb3e6df51e956357",
-                "original_name": "logo-acyma2.png",
-                "mime_type": "image/png",
-                "size": 19953,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/b1264f8e8151d994bb3e6df51e956357"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://pprd.cybermalveillance.gouv.fr",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Swiss Post - E-Voting",
         "slug": "swiss-post-evoting",
         "country": "CH",
@@ -3584,128 +3864,6 @@
         ]
     },
     {
-        "title": "Withings",
-        "slug": "withings-public-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 183,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 3000,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "693fb017-ce33-4b3a-bffb-58b5c53b86b6",
-            "original_name": "1681803337624.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 2794,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/693fb017-ce33-4b3a-bffb-58b5c53b86b6"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Withings",
-            "slug": "withings",
-            "description": "French company specialized in connected objects in the field of health.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "898966d6-d0c8-4c3c-a79e-e404963cb341",
-                "original_name": "withings.jpg",
-                "mime_type": "image/jpeg",
-                "size": 2724,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/898966d6-d0c8-4c3c-a79e-e404963cb341"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://wbsapi.withings.net",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://healthmate.withings.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://account.withings.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://app.withings.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://developer.withings.com/dashboard/",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://scalews.withings.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Body Scan scale",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Body Comp scale",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch Light",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch 2",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch Nova",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "BookBeat",
         "slug": "bookbeat",
         "country": "SE",
@@ -3757,164 +3915,6 @@
                 "scope": "https://www.bookbeat.com",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "ownCloud - Bug Bounty Program",
-        "slug": "owncloud-bug-bounty-program",
-        "country": "DE",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 59,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 5000,
-        "scopes_count": 18,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c0c85dd9-2913-4241-91e3-73e81a3d4ab2",
-            "original_name": "owncloud.jpg",
-            "mime_type": "image/jpeg",
-            "size": 5637,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c0c85dd9-2913-4241-91e3-73e81a3d4ab2"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "ownCloud",
-            "slug": "owncloud",
-            "description": "ownCloud GmbH is the company behind the ownCloud Project - the most downloaded open source project for data and file sync, share and view.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "4a48d029-b76e-4633-a731-a8bcfd1e777f",
-                "original_name": "5fd11c324df07e597eb78f6408fe2c2c871c1503f479ab4fa8446caf0eb02322.png",
-                "mime_type": "image/png",
-                "size": 5832,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/4a48d029-b76e-4633-a731-a8bcfd1e777f"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://owncloud.org/install/#install-clients",
-                "scope_type": "application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.owncloud.android",
-                "scope_type": "mobile-application-android",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/app/id1359583808",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/customgroups",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/guests",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/richdocuments",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/notifications",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/client",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/core",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/gallery",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/ocis",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/user_ldap",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/oauth2",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/activity",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/updater",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/core/tree/master/apps/files",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/android",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/owncloud/ios-app",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -5176,7 +5176,7 @@
         "slug": "cryptobox-bug-bounty",
         "country": "FR",
         "activity_area": "CyberSec",
-        "average_first_response_time": 4,
+        "average_first_response_time": 3,
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
