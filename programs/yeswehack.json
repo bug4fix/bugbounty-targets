@@ -1,9 +1,9 @@
 [
     {
-        "title": "Withings",
-        "slug": "withings-public-program",
+        "title": "Contentsquare Bug Bounty Program",
+        "slug": "contentsquare-bug-bounty-program",
         "country": "FR",
-        "activity_area": "HealthTech",
+        "activity_area": "CyberSec",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -19,104 +19,62 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 191,
+        "reports_count": 163,
         "bounty_reward_min": 0,
-        "bounty_reward_max": 3000,
-        "scopes_count": 12,
+        "bounty_reward_max": 2500,
+        "scopes_count": 5,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "693fb017-ce33-4b3a-bffb-58b5c53b86b6",
-            "original_name": "1681803337624.jpeg",
+            "name": "55bcf248-5f61-418b-9de6-f3fbb5ddd1b0",
+            "original_name": "1648047227139.jpeg",
             "mime_type": "image/jpeg",
-            "size": 2794,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/693fb017-ce33-4b3a-bffb-58b5c53b86b6"
+            "size": 8409,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/55bcf248-5f61-418b-9de6-f3fbb5ddd1b0"
         },
         "event": null,
         "business_unit": {
-            "name": "Withings",
-            "slug": "withings",
-            "description": "French company specialized in connected objects in the field of health.",
+            "name": "Contentsquare",
+            "slug": "contentsquare",
+            "description": "UX Analytics",
             "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "898966d6-d0c8-4c3c-a79e-e404963cb341",
-                "original_name": "withings.jpg",
+                "name": "618d1e69-b739-4e9c-906b-8dd4a53dbd41",
+                "original_name": "1648047227139.jpeg",
                 "mime_type": "image/jpeg",
-                "size": 2724,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/898966d6-d0c8-4c3c-a79e-e404963cb341"
+                "size": 8409,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/618d1e69-b739-4e9c-906b-8dd4a53dbd41"
             }
         },
         "scopes": [
             {
-                "scope": "https://wbsapi.withings.net",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://healthmate.withings.com",
+                "scope": "*.contentsquare.com",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://account.withings.com",
+                "scope": "https://mobile-production.content-square.net/",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://app.withings.com",
+                "scope": "https://m.csqtrk.net",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://developer.withings.com/dashboard/",
+                "scope": "https://s.contentsquare.net",
                 "scope_type": "web-application",
-                "asset_value": "MEDIUM",
+                "asset_value": "LOW",
                 "report_count": null
             },
             {
-                "scope": "https://scalews.withings.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Body Scan scale",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Body Comp scale",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch Light",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch 2",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch Nova",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Scanwatch",
-                "scope_type": "other",
-                "asset_value": "MEDIUM",
+                "scope": "Contentsquare SDK (cf : Program Description)",
+                "scope_type": "application",
+                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -141,7 +99,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1096,
+        "reports_count": 1100,
         "bounty_reward_min": 50,
         "bounty_reward_max": 1500,
         "scopes_count": 28,
@@ -340,63 +298,337 @@
         ]
     },
     {
-        "title": "GovTech - Vulnerability Disclosure Programme",
-        "slug": "govtech-vulnerability-disclosure-programme-policy",
-        "country": "SG",
-        "activity_area": "Government",
+        "title": "Dailymotion public bug bounty",
+        "slug": "dailymotion-public-bug-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
         "public": true,
-        "bounty": false,
-        "gift": true,
-        "hall_of_fame": false,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
         "hacktivity": false,
-        "report_collaboration_active": false,
+        "report_collaboration_active": true,
         "pid": null,
         "secured": false,
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 268,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 2,
+        "reports_count": 1127,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 11,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
-            "original_name": "govtech_logo1.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 88875,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
+            "original_name": "dailymotion-logo-ogtag-new.png",
+            "mime_type": "image/png",
+            "size": 84668,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
         },
         "event": null,
         "business_unit": {
-            "name": "Government Technology Agency of Singapore",
-            "slug": "government-technology-agency-of-singapore",
-            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
-            "currency": "USD",
+            "name": "Dailymotion",
+            "slug": "dailymotion",
+            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
+            "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
-                "original_name": "GovTech300x300.png",
+                "name": "34d87a778f698f059187586302527e70",
+                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
                 "mime_type": "image/png",
-                "size": 61833,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+                "size": 6885,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
             }
         },
         "scopes": [
             {
-                "scope": "*.gov.sg",
+                "scope": "*.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.api.dailymotion.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "developer.dailymotion.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dmcdn.net",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "ifttt-adaptor.pub.kube.dm.gg",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "AS41690",
                 "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "dmxleo.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.dm.gg",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Google Cloud Plateform Instances",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "OTTO.DE Bug Bounty",
+        "slug": "otto-de-bug-bounty",
+        "country": "DE",
+        "activity_area": "Retail",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 156,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c2eb0a8e-ef1f-4638-b25d-f44222a1823a",
+            "original_name": "logo(1).png",
+            "mime_type": "image/png",
+            "size": 9348,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c2eb0a8e-ef1f-4638-b25d-f44222a1823a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "OTTO (GmbH & Co. KG)",
+            "slug": "otto-gmbh-co-kg",
+            "description": "Online Shop",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "744a6e63-dc3e-49ef-9e1e-06f1558d21b8",
+                "original_name": "otto-logo-2015.png",
+                "mime_type": "image/png",
+                "size": 22019,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/744a6e63-dc3e-49ef-9e1e-06f1558d21b8"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.otto.de/jobs",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.lascana.de/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://teleoptiprd.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://mmp.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://partnerprogramm.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://orbidder.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://supplier-connect.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://retail-api.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 675,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 50000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
+            "original_name": "D - white-2.jpg",
+            "mime_type": "image/jpeg",
+            "size": 70202,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "mime_type": "image/png",
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.doctolib.(fr|de|it)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Special scenarios (see description)",
+                "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
+                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.siilo.com",
+                "scope_type": "application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -421,7 +653,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1482,
+        "reports_count": 1483,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -477,7 +709,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 600,
+        "reports_count": 601,
         "bounty_reward_min": 0,
         "bounty_reward_max": 2000,
         "scopes_count": 11,
@@ -574,10 +806,10 @@
         ]
     },
     {
-        "title": "OTTO.DE Bug Bounty",
-        "slug": "otto-de-bug-bounty",
-        "country": "DE",
-        "activity_area": "Retail",
+        "title": "Withings",
+        "slug": "withings-public-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -593,98 +825,166 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 155,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 11,
+        "reports_count": 191,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 3000,
+        "scopes_count": 12,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "c2eb0a8e-ef1f-4638-b25d-f44222a1823a",
-            "original_name": "logo(1).png",
-            "mime_type": "image/png",
-            "size": 9348,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c2eb0a8e-ef1f-4638-b25d-f44222a1823a"
+            "name": "693fb017-ce33-4b3a-bffb-58b5c53b86b6",
+            "original_name": "1681803337624.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 2794,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/693fb017-ce33-4b3a-bffb-58b5c53b86b6"
         },
         "event": null,
         "business_unit": {
-            "name": "OTTO (GmbH & Co. KG)",
-            "slug": "otto-gmbh-co-kg",
-            "description": "Online Shop",
+            "name": "Withings",
+            "slug": "withings",
+            "description": "French company specialized in connected objects in the field of health.",
             "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "744a6e63-dc3e-49ef-9e1e-06f1558d21b8",
-                "original_name": "otto-logo-2015.png",
-                "mime_type": "image/png",
-                "size": 22019,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/744a6e63-dc3e-49ef-9e1e-06f1558d21b8"
+                "name": "898966d6-d0c8-4c3c-a79e-e404963cb341",
+                "original_name": "withings.jpg",
+                "mime_type": "image/jpeg",
+                "size": 2724,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/898966d6-d0c8-4c3c-a79e-e404963cb341"
             }
         },
         "scopes": [
             {
-                "scope": "https://www.otto.de",
+                "scope": "https://wbsapi.withings.net",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://healthmate.withings.com",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://www.otto.de/jobs",
+                "scope": "https://account.withings.com",
                 "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
-                "scope_type": "mobile-application-android",
+                "scope": "https://app.withings.com",
+                "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
-                "scope_type": "mobile-application-ios",
+                "scope": "https://developer.withings.com/dashboard/",
+                "scope_type": "web-application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://www.lascana.de/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "https://scalews.withings.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://teleoptiprd.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "Body Scan scale",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://mmp.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "Body Comp scale",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://partnerprogramm.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "Scanwatch Light",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://orbidder.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "Scanwatch 2",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://supplier-connect.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "Scanwatch Nova",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://retail-api.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
+                "scope": "Scanwatch",
+                "scope_type": "other",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": true,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 268,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.gov.sg",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -1116,86 +1416,6 @@
         ]
     },
     {
-        "title": "Contentsquare Bug Bounty Program",
-        "slug": "contentsquare-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 162,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2500,
-        "scopes_count": 5,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "55bcf248-5f61-418b-9de6-f3fbb5ddd1b0",
-            "original_name": "1648047227139.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 8409,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/55bcf248-5f61-418b-9de6-f3fbb5ddd1b0"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Contentsquare",
-            "slug": "contentsquare",
-            "description": "UX Analytics",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "618d1e69-b739-4e9c-906b-8dd4a53dbd41",
-                "original_name": "1648047227139.jpeg",
-                "mime_type": "image/jpeg",
-                "size": 8409,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/618d1e69-b739-4e9c-906b-8dd4a53dbd41"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.contentsquare.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://mobile-production.content-square.net/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://m.csqtrk.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://s.contentsquare.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Contentsquare SDK (cf : Program Description)",
-                "scope_type": "application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "DINUM - D\u00e9marches Simplifi\u00e9es - Public Bug Bounty Program",
         "slug": "demarches-simplifiees-public",
         "country": "FR",
@@ -1443,122 +1663,6 @@
                 "scope": "libsoup",
                 "scope_type": "other",
                 "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Dailymotion public bug bounty",
-        "slug": "dailymotion-public-bug-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 1126,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "f6218677-806e-40e7-88ee-8ccb707cd87c",
-            "original_name": "dailymotion-logo-ogtag-new.png",
-            "mime_type": "image/png",
-            "size": 84668,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/f6218677-806e-40e7-88ee-8ccb707cd87c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Dailymotion",
-            "slug": "dailymotion",
-            "description": "Dailymotion.com is a video broadcasting and advertising platform than has 3 billion video views a month over web, mobile and smart TVs apps.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "34d87a778f698f059187586302527e70",
-                "original_name": "c63c63f5cdb0c05b810b88b4c9d59c13.png",
-                "mime_type": "image/png",
-                "size": 6885,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/34d87a778f698f059187586302527e70"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.api.dailymotion.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "developer.dailymotion.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dmcdn.net",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.dailymotion.dailymotion&hl=fr&gl=US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/dailymotion/id336978041",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "ifttt-adaptor.pub.kube.dm.gg",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "AS41690",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "dmxleo.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.dm.gg",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Google Cloud Plateform Instances",
-                "scope_type": "other",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -1978,7 +2082,7 @@
         "slug": "datadome-bug-bounty",
         "country": "FR",
         "activity_area": "CyberSec",
-        "average_first_response_time": 2,
+        "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
         "demo": false,
@@ -2807,110 +2911,6 @@
                 "scope": "m.dana.id",
                 "scope_type": "web-application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 674,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 50000,
-        "scopes_count": 9,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "b21dce75-cced-4f9f-b1d3-1ebb83444dac",
-            "original_name": "D - white-2.jpg",
-            "mime_type": "image/jpeg",
-            "size": 70202,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/b21dce75-cced-4f9f-b1d3-1ebb83444dac"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
-                "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.siilo.com",
-                "scope_type": "application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
