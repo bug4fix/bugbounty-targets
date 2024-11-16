@@ -1,5 +1,183 @@
 [
     {
+        "title": "BookBeat",
+        "slug": "bookbeat",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 149,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
+            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+            "mime_type": "image/png",
+            "size": 7732,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "BookBeat",
+            "slug": "bookbeat",
+            "description": "BookBeat",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
+                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
+                "mime_type": "image/png",
+                "size": 7732,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.bookbeat.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Swapcard",
+        "slug": "swapcard",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 478,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 12,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
+            "original_name": "swapcard.png",
+            "mime_type": "image/png",
+            "size": 21772,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/90edd40b-95fe-4e2f-8ae6-7538d3982a75"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Swapcard",
+            "slug": "swapcard",
+            "description": "Swapcard is an event app & matchmaking platform powered by artificial intelligence.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "ea65f8954830cf9737be58af4b85f96b",
+                "original_name": "logo.png",
+                "mime_type": "image/png",
+                "size": 22658,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/ea65f8954830cf9737be58af4b85f96b"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "api.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "chat-api.swapcard.com/graphql",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "developer.swapcard.com/event-admin/graphql",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "login.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "studio-api.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "app.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "studio.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "team.swapcard.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "img.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "t.swapcard.com",
+                "scope_type": "api",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "YesWeHack Dojo",
         "slug": "dojo",
         "country": "FR",
@@ -19,7 +197,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 1651,
+        "reports_count": 1656,
         "bounty_reward_min": null,
         "bounty_reward_max": null,
         "scopes_count": 1,
@@ -56,6 +234,822 @@
         ]
     },
     {
+        "title": "Yes We Hack",
+        "slug": "yes-we-hack",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 475,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 15000,
+        "scopes_count": 3,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "0db467e0-a45c-4515-8856-efc2cc12a41f",
+            "original_name": "YWH-logo.jpg",
+            "mime_type": "image/jpeg",
+            "size": 65866,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/0db467e0-a45c-4515-8856-efc2cc12a41f"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Yes We Hack",
+            "slug": "yes-we-hack",
+            "description": "Global Bug Bounty & VDP Platform",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "9196423d-9223-4c0b-9548-0632f77d18ae",
+                "original_name": "YWH.jpg",
+                "mime_type": "image/jpeg",
+                "size": 81815,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/9196423d-9223-4c0b-9548-0632f77d18ae"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://yeswehack.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.yeswehack.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.yeswehack.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Legapass",
+        "slug": "legapass-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "Tech - Other",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 79,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2000,
+        "scopes_count": 1,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "a28ba958-48f9-4241-99f1-4a67950badf7",
+            "original_name": "logo-legapass.png",
+            "mime_type": "image/png",
+            "size": 4274,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a28ba958-48f9-4241-99f1-4a67950badf7"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Legapass",
+            "slug": "legapass",
+            "description": "Legapass offers a solution to ensure the transmission of sensitive data in complete confidentiality in case of death or disaster.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "fd1b53fa-8d60-4219-a26e-4d4617eb557a",
+                "original_name": "logo.png",
+                "mime_type": "image/png",
+                "size": 1693,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/fd1b53fa-8d60-4219-a26e-4d4617eb557a"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://bounty.legapass.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Bug Bounty Program - BlaBlaCar",
+        "slug": "bug-bounty-program-blablacar",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 2,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 895,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 3000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "5ec3b919-3ce6-4016-93fc-4badf4c51915",
+            "original_name": "bbc.png",
+            "mime_type": "image/png",
+            "size": 69792,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/5ec3b919-3ce6-4016-93fc-4badf4c51915"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Comuto SA",
+            "slug": "comuto-sa",
+            "description": "BlaBlaCar is the world leader in long-distance carpooling. We are an innovative and fast-growing company building a unique community of members to transform the way people travel!\r\n\r\nSince 2013, BlaBlaCar has grown exponentially and we\u2019re now a community of over 40 millions members in more than 20 countries. Thus, we need to keep our member\u2019s privacy and data secure.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "3247185533f178df8fb8703fdc3f249d",
+                "original_name": "BBC_symbol_wth_ttl_redim2.png",
+                "mime_type": "image/png",
+                "size": 39071,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/3247185533f178df8fb8703fdc3f249d"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://api.blablalines.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://daily.blablacar.fr",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://blablacardaily.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.blablalines",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Deezer Bug Bounty Program",
+        "slug": "deezer-bug-bounty-program-2019",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 629,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 2000,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
+            "original_name": "ywh4.png",
+            "mime_type": "image/png",
+            "size": 73547,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Deezer",
+            "slug": "deezer",
+            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
+                "original_name": "ywh sqare.png",
+                "mime_type": "image/png",
+                "size": 15291,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "connect.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "api.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "payment.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Deezer App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Deezer App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "zen.deezer.com",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.deezer.com",
+                "scope_type": "api",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "wellbeing.dzcdn.net",
+                "scope_type": "other",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "Android Zen App",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "iOS Zen App",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "DataDome Bot Bounty",
+        "slug": "datadome-bot-bounty",
+        "country": "FR",
+        "activity_area": "CyberSec",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 25,
+        "bounty_reward_min": 200,
+        "bounty_reward_max": 5000,
+        "scopes_count": 6,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c28d277d-6850-4728-a5f2-ff8a1781a22c",
+            "original_name": "icone-DataDome (1).jpg",
+            "mime_type": "image/jpeg",
+            "size": 68409,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c28d277d-6850-4728-a5f2-ff8a1781a22c"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "DataDome",
+            "slug": "datadome",
+            "description": "Online fraud & bot management for mobile apps, websites & APIs",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "2dbd89af-6605-4b83-845c-752b27da2ee1",
+                "original_name": "39075605-1411355165630647-161704930283880448-n.png",
+                "mime_type": "image/png",
+                "size": 15710,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/2dbd89af-6605-4b83-845c-752b27da2ee1"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://bounty-nodejs.datashield.co",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-fastly.datashield.co",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "https://bounty-nginx.datashield.co",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.captcha-delivery.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "js.datadome.co",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "api-js.datadome.co",
+                "scope_type": "api",
+                "asset_value": "HIGH",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Doctolib",
+        "slug": "doctolib-public-bug-bounty-program",
+        "country": "FR",
+        "activity_area": "HealthTech",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 701,
+        "bounty_reward_min": 0,
+        "bounty_reward_max": 50000,
+        "scopes_count": 9,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "7ef26a12-b824-4815-9a4d-71fcba3eab3a",
+            "original_name": "Capture d\u2019e\u0301cran 2024-10-25 a\u0300 20.20.42.png",
+            "mime_type": "image/png",
+            "size": 74448,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/7ef26a12-b824-4815-9a4d-71fcba3eab3a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Doctolib",
+            "slug": "doctolib",
+            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "7f0639078becd63ab17e57b318a6352e",
+                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "mime_type": "image/png",
+                "size": 15879,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "www.doctolib.(fr|de|it)",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "Special scenarios (see description)",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope_type": "mobile-application-android",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.siilo.com",
+                "scope_type": "application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "Telenor Sweden Public Bug Bounty Program",
+        "slug": "telenor-sweden-public-bug-bounty-program",
+        "country": "SE",
+        "activity_area": "Media & Entertainment",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 749,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 4000,
+        "scopes_count": 7,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
+            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
+            "mime_type": "image/jpeg",
+            "size": 17150,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Telenor Sweden",
+            "slug": "telenor-sweden",
+            "description": "Telecommunication",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
+                "original_name": "telenor.png",
+                "mime_type": "image/png",
+                "size": 5381,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.telenor.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.bredbandsbolaget.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.europolitan.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.ownit.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.se",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.work",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "*.vimla.io",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "GovTech - Vulnerability Disclosure Programme",
+        "slug": "govtech-vulnerability-disclosure-programme-policy",
+        "country": "SG",
+        "activity_area": "Government",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": false,
+        "gift": true,
+        "hall_of_fame": false,
+        "hacktivity": false,
+        "report_collaboration_active": false,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 288,
+        "bounty_reward_min": null,
+        "bounty_reward_max": null,
+        "scopes_count": 2,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
+            "original_name": "govtech_logo1.jpeg",
+            "mime_type": "image/jpeg",
+            "size": 88875,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "Government Technology Agency of Singapore",
+            "slug": "government-technology-agency-of-singapore",
+            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
+            "currency": "USD",
+            "already_activate_product": true,
+            "logo": {
+                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
+                "original_name": "GovTech300x300.png",
+                "mime_type": "image/png",
+                "size": 61833,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "*.gov.sg",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "Domains where GovTech is the registrar",
+                "scope_type": "other",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            }
+        ]
+    },
+    {
+        "title": "OTTO.DE Bug Bounty",
+        "slug": "otto-de-bug-bounty",
+        "country": "DE",
+        "activity_area": "Retail",
+        "average_first_response_time": 1,
+        "type": "bug-bounty",
+        "status": "V",
+        "demo": false,
+        "public": true,
+        "bounty": true,
+        "gift": false,
+        "hall_of_fame": true,
+        "hacktivity": false,
+        "report_collaboration_active": true,
+        "pid": null,
+        "secured": false,
+        "disabled": false,
+        "vdp": false,
+        "archived": false,
+        "reports_count": 211,
+        "bounty_reward_min": 50,
+        "bounty_reward_max": 2500,
+        "scopes_count": 11,
+        "pentest_campaign_status": null,
+        "thumbnail": {
+            "name": "c2eb0a8e-ef1f-4638-b25d-f44222a1823a",
+            "original_name": "logo(1).png",
+            "mime_type": "image/png",
+            "size": 9348,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/c2eb0a8e-ef1f-4638-b25d-f44222a1823a"
+        },
+        "event": null,
+        "business_unit": {
+            "name": "OTTO (GmbH & Co. KG)",
+            "slug": "otto-gmbh-co-kg",
+            "description": "Online Shop",
+            "currency": "EUR",
+            "already_activate_product": true,
+            "logo": {
+                "name": "744a6e63-dc3e-49ef-9e1e-06f1558d21b8",
+                "original_name": "otto-logo-2015.png",
+                "mime_type": "image/png",
+                "size": 22019,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/744a6e63-dc3e-49ef-9e1e-06f1558d21b8"
+            }
+        },
+        "scopes": [
+            {
+                "scope": "https://www.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.otto.de/jobs",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
+                "scope_type": "mobile-application-android",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://www.lascana.de/",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://teleoptiprd.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://mmp.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://partnerprogramm.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://orbidder.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://supplier-connect.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            },
+            {
+                "scope": "https://retail-api.otto.de",
+                "scope_type": "web-application",
+                "asset_value": "LOW",
+                "report_count": null
+            }
+        ]
+    },
+    {
         "title": "Ezviz - Bug Bounty Program",
         "slug": "ezviz-bug-bounty-program",
         "country": "CN",
@@ -75,7 +1069,7 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 189,
+        "reports_count": 190,
         "bounty_reward_min": 10,
         "bounty_reward_max": 3000,
         "scopes_count": 11,
@@ -172,10 +1166,10 @@
         ]
     },
     {
-        "title": "Doctolib",
-        "slug": "doctolib-public-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "HealthTech",
+        "title": "Infomaniak Bug Bounty program",
+        "slug": "infomaniak-bug-bounty-program",
+        "country": "CH",
+        "activity_area": "Tech - Other",
         "average_first_response_time": 1,
         "type": "bug-bounty",
         "status": "V",
@@ -191,84 +1185,246 @@
         "disabled": false,
         "vdp": false,
         "archived": false,
-        "reports_count": 698,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 50000,
-        "scopes_count": 9,
+        "reports_count": 727,
+        "bounty_reward_min": 100,
+        "bounty_reward_max": 5000,
+        "scopes_count": 36,
         "pentest_campaign_status": null,
         "thumbnail": {
-            "name": "7ef26a12-b824-4815-9a4d-71fcba3eab3a",
-            "original_name": "Capture d\u2019e\u0301cran 2024-10-25 a\u0300 20.20.42.png",
-            "mime_type": "image/png",
-            "size": 74448,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/7ef26a12-b824-4815-9a4d-71fcba3eab3a"
+            "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
+            "original_name": "logo-k-_1_.jpg",
+            "mime_type": "image/jpeg",
+            "size": 38164,
+            "url": "https://cdn-yeswehack.com/program/thumbnail/a8ed0d8c-1e61-434d-997f-e25e3c45f1e8"
         },
         "event": null,
         "business_unit": {
-            "name": "Doctolib",
-            "slug": "doctolib",
-            "description": "Founded in 2013, Doctolib is the e-health leader in Europe. Doctolib improves the daily lives of more than 300,000 healthcare personnel thanks to innovative medical software. Doctolib also makes access to healthcare fast and equal: more than 60 million Europeans book their appointments and manage their health via Doctolib, in a secure way. In over 30 cities of France, Germany and Italy, more than 2,400 Doctolibers are dedicated to having a positive impact on the healthcare industry.",
+            "name": "Infomaniak",
+            "slug": "infomaniak",
+            "description": "Infomaniak is Switzerland's largest web-hosting company, also offering live-streaming and video on demand services.",
             "currency": "EUR",
             "already_activate_product": true,
             "logo": {
-                "name": "7f0639078becd63ab17e57b318a6352e",
-                "original_name": "c7a45c1b39c525a804872f47933051cc.png",
+                "name": "7cf25280-a177-4aca-ad3e-9e11ddb2633f",
+                "original_name": "Capture d\u2019e\u0301cran 2023-06-16 a\u0300 16.50.25.png",
                 "mime_type": "image/png",
-                "size": 15879,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7f0639078becd63ab17e57b318a6352e"
+                "size": 9091,
+                "url": "https://cdn-yeswehack.com/business-unit/logo/7cf25280-a177-4aca-ad3e-9e11ddb2633f"
             }
         },
         "scopes": [
             {
-                "scope": "www.doctolib.(fr|de|it)",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "pro.doctolib.(fr|de|it) (see \"Free features for healthcare professionals\"))",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "Special scenarios (see description)",
+                "scope": "*.kdrive.infomaniak.com",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "*.doctolib.(fr|de|it|com|net)",
+                "scope": "api.infomaniak.com",
+                "scope_type": "api",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "login.infomaniak.com",
                 "scope_type": "web-application",
-                "asset_value": "LOW",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/fr/app/doctolib/id925339063",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
+                "scope": "manager.infomaniak.com/v3/*",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
                 "report_count": null
             },
             {
-                "scope": "http://play.google.com/store/apps/details?id=fr.doctolib.www",
+                "scope": "shop.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "CRITICAL",
+                "report_count": null
+            },
+            {
+                "scope": "*.kchat.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "calendar.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "contacts.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "etickets.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "mail.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "swiss-backup*.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "vod.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "*.vod2.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "player-radio.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "welcome.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.swisstransfer.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "www.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "chk.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ai-tools.infomaniak.com",
+                "scope_type": "mobile-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "kmeet.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "kpaste.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "sync.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "storage*.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "HIGH",
+                "report_count": null
+            },
+            {
+                "scope": "ix2smbdyjt.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "5k8vrbdyje.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "fv3lfbdyjh.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "l75pvbdyjo.infomaniak.site",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "infomaniak.events",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "sms.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "developer.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "invitation.infomaniak.com",
+                "scope_type": "web-application",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
                 "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
+                "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "*.siilo.com",
+                "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
+                "scope_type": "mobile-application-ios",
+                "asset_value": "MEDIUM",
+                "report_count": null
+            },
+            {
+                "scope": "https://github.com/Infomaniak/desktop-kDrive",
                 "scope_type": "application",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://apps.apple.com/ie/app/doctolib-siilo/id1083002150",
+                "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "MEDIUM",
                 "report_count": null
             },
             {
-                "scope": "https://play.google.com/store/apps/details?id=com.siilo.android&hl=en",
+                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
                 "scope_type": "mobile-application-android",
                 "asset_value": "MEDIUM",
                 "report_count": null
@@ -532,128 +1688,6 @@
         ]
     },
     {
-        "title": "Swapcard",
-        "slug": "swapcard",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 477,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 12,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "90edd40b-95fe-4e2f-8ae6-7538d3982a75",
-            "original_name": "swapcard.png",
-            "mime_type": "image/png",
-            "size": 21772,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/90edd40b-95fe-4e2f-8ae6-7538d3982a75"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Swapcard",
-            "slug": "swapcard",
-            "description": "Swapcard is an event app & matchmaking platform powered by artificial intelligence.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "ea65f8954830cf9737be58af4b85f96b",
-                "original_name": "logo.png",
-                "mime_type": "image/png",
-                "size": 22658,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/ea65f8954830cf9737be58af4b85f96b"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "api.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "chat-api.swapcard.com/graphql",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "developer.swapcard.com/event-admin/graphql",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "login.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "studio-api.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "app.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "studio.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "team.swapcard.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/swapcard/id879488719",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.swapcard.apps.android&hl=fr",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "img.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "t.swapcard.com",
-                "scope_type": "api",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "GNOME Bug Bounty Program",
         "slug": "gnome-bug-bounty-program",
         "country": "DE",
@@ -742,98 +1776,6 @@
         ]
     },
     {
-        "title": "Telenor Sweden Public Bug Bounty Program",
-        "slug": "telenor-sweden-public-bug-bounty-program",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 748,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 4000,
-        "scopes_count": 7,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "9e00fffbba8e89ef7e93a4d734bf0182",
-            "original_name": "medium-082660b0-1ade-4467-ab86b8388fff5928.jpg",
-            "mime_type": "image/jpeg",
-            "size": 17150,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/9e00fffbba8e89ef7e93a4d734bf0182"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Telenor Sweden",
-            "slug": "telenor-sweden",
-            "description": "Telecommunication",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "d5cf78e6-ddba-494a-9f8d-1a2c98151ac0",
-                "original_name": "telenor.png",
-                "mime_type": "image/png",
-                "size": 5381,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/d5cf78e6-ddba-494a-9f8d-1a2c98151ac0"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.telenor.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.bredbandsbolaget.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.europolitan.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.ownit.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.se",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.work",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "*.vimla.io",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Cybermalveillance.gouv.fr  - sensibilization, prevention and support in terms of cybersecurity",
         "slug": "cybermalveillance-gouv-fr-sensibilization-prevention-and-support-in-terms-of-cybersecurity",
         "country": "FR",
@@ -885,122 +1827,6 @@
                 "scope": "https://pprd.cybermalveillance.gouv.fr",
                 "scope_type": "web-application",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "OTTO.DE Bug Bounty",
-        "slug": "otto-de-bug-bounty",
-        "country": "DE",
-        "activity_area": "Retail",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 210,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2500,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c2eb0a8e-ef1f-4638-b25d-f44222a1823a",
-            "original_name": "logo(1).png",
-            "mime_type": "image/png",
-            "size": 9348,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c2eb0a8e-ef1f-4638-b25d-f44222a1823a"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "OTTO (GmbH & Co. KG)",
-            "slug": "otto-gmbh-co-kg",
-            "description": "Online Shop",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "744a6e63-dc3e-49ef-9e1e-06f1558d21b8",
-                "original_name": "otto-logo-2015.png",
-                "mime_type": "image/png",
-                "size": 22019,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/744a6e63-dc3e-49ef-9e1e-06f1558d21b8"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.otto.de/jobs",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=de.cellular.ottohybrid&hl=de",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/de/app/otto-shopping-m%C3%B6bel/id404844644",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.lascana.de/",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://teleoptiprd.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://mmp.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://partnerprogramm.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://orbidder.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://supplier-connect.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://retail-api.otto.de",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -1185,74 +2011,6 @@
                 "scope": "Contentsquare SDK (cf : Program Description)",
                 "scope_type": "application",
                 "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Yes We Hack",
-        "slug": "yes-we-hack",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 471,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 15000,
-        "scopes_count": 3,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "0db467e0-a45c-4515-8856-efc2cc12a41f",
-            "original_name": "YWH-logo.jpg",
-            "mime_type": "image/jpeg",
-            "size": 65866,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/0db467e0-a45c-4515-8856-efc2cc12a41f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Yes We Hack",
-            "slug": "yes-we-hack",
-            "description": "Global Bug Bounty & VDP Platform",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "9196423d-9223-4c0b-9548-0632f77d18ae",
-                "original_name": "YWH.jpg",
-                "mime_type": "image/jpeg",
-                "size": 81815,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/9196423d-9223-4c0b-9548-0632f77d18ae"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://yeswehack.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.yeswehack.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.yeswehack.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
                 "report_count": null
             }
         ]
@@ -1742,62 +2500,6 @@
         ]
     },
     {
-        "title": "Legapass",
-        "slug": "legapass-bug-bounty-program",
-        "country": "FR",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 78,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "a28ba958-48f9-4241-99f1-4a67950badf7",
-            "original_name": "logo-legapass.png",
-            "mime_type": "image/png",
-            "size": 4274,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a28ba958-48f9-4241-99f1-4a67950badf7"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Legapass",
-            "slug": "legapass",
-            "description": "Legapass offers a solution to ensure the transmission of sensitive data in complete confidentiality in case of death or disaster.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "fd1b53fa-8d60-4219-a26e-4d4617eb557a",
-                "original_name": "logo.png",
-                "mime_type": "image/png",
-                "size": 1693,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/fd1b53fa-8d60-4219-a26e-4d4617eb557a"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://bounty.legapass.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Coindcx - Bug Bounty Program",
         "slug": "coindcx-bug-bounty-program",
         "country": "IN",
@@ -1867,122 +2569,6 @@
                 "scope": "https://apps.apple.com/in/app/coindcx-trade-bitcoin-crypto/id1517787269",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Deezer Bug Bounty Program",
-        "slug": "deezer-bug-bounty-program-2019",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 627,
-        "bounty_reward_min": 0,
-        "bounty_reward_max": 2000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "5b12e9e0-3d7e-498e-be1a-6ca1178efdec",
-            "original_name": "ywh4.png",
-            "mime_type": "image/png",
-            "size": 73547,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/5b12e9e0-3d7e-498e-be1a-6ca1178efdec"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Deezer",
-            "slug": "deezer",
-            "description": "The Deezer platform provides an innovative music streaming service that has attracted millions of users worldwide. Deezer lets them instantly play the music they want to hear and guarantees high-quality sound, diversification and personalized music curation.\r\n\r\nDeezer is committed to working with security experts across the world to stay up to date with the latest security techniques. If you have discovered a security issue that you believe we should know about, please let us know about it and we'll do our best to quickly correct the issue.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "391a9d5c-3e5a-464c-a84f-6e9d013e21b7",
-                "original_name": "ywh sqare.png",
-                "mime_type": "image/png",
-                "size": 15291,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/391a9d5c-3e5a-464c-a84f-6e9d013e21b7"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "www.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "connect.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "api.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "payment.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Deezer App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Deezer App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "zen.deezer.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.deezer.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "wellbeing.dzcdn.net",
-                "scope_type": "other",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "Android Zen App",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "iOS Zen App",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -2062,122 +2648,6 @@
         ]
     },
     {
-        "title": "Bug Bounty Program - BlaBlaCar",
-        "slug": "bug-bounty-program-blablacar",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 894,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 3000,
-        "scopes_count": 11,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "5ec3b919-3ce6-4016-93fc-4badf4c51915",
-            "original_name": "bbc.png",
-            "mime_type": "image/png",
-            "size": 69792,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/5ec3b919-3ce6-4016-93fc-4badf4c51915"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Comuto SA",
-            "slug": "comuto-sa",
-            "description": "BlaBlaCar is the world leader in long-distance carpooling. We are an innovative and fast-growing company building a unique community of members to transform the way people travel!\r\n\r\nSince 2013, BlaBlaCar has grown exponentially and we\u2019re now a community of over 40 millions members in more than 20 countries. Thus, we need to keep our member\u2019s privacy and data secure.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "3247185533f178df8fb8703fdc3f249d",
-                "original_name": "BBC_symbol_wth_ttl_redim2.png",
-                "mime_type": "image/png",
-                "size": 39071,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/3247185533f178df8fb8703fdc3f249d"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://edge.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua))",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://auth.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://www.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://m.blablacar.(fr|de|co.uk|in|es|mx|be|hr|hu|it|nl|pl|br|pt|ro|ru|com|tr|com.ua)",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.comuto&hl=en",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://itunes.apple.com/fr/app/blablacar-trusted-carpooling/id341329033?l=en&mt=8",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://api.blablalines.com",
-                "scope_type": "api",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://daily.blablacar.fr",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://blablacardaily.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.blablalines",
-                "scope_type": "mobile-application-android",
-                "asset_value": "LOW",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/blablalines-covoiturage/id1225543288",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "LOW",
-                "report_count": null
-            }
-        ]
-    },
-    {
         "title": "Okto - Bug Bounty Program",
         "slug": "okto-bug-bounty-program",
         "country": "IN",
@@ -2240,68 +2710,6 @@
             {
                 "scope": "*.okto.tech",
                 "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "GovTech - Vulnerability Disclosure Programme",
-        "slug": "govtech-vulnerability-disclosure-programme-policy",
-        "country": "SG",
-        "activity_area": "Government",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": false,
-        "gift": true,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": false,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 287,
-        "bounty_reward_min": null,
-        "bounty_reward_max": null,
-        "scopes_count": 2,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c203f224-a89e-4887-92f2-a23ba1b8da15",
-            "original_name": "govtech_logo1.jpeg",
-            "mime_type": "image/jpeg",
-            "size": 88875,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c203f224-a89e-4887-92f2-a23ba1b8da15"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Government Technology Agency of Singapore",
-            "slug": "government-technology-agency-of-singapore",
-            "description": "GovTech is the lead agency driving Singapore's Smart Nation initiative and public sector digital transformation. We harness the power of technology to make lives better for citizens, businesses, international audiences and the public service sector.",
-            "currency": "USD",
-            "already_activate_product": true,
-            "logo": {
-                "name": "919873f5-5808-4139-b9b1-8c5dd4369497",
-                "original_name": "GovTech300x300.png",
-                "mime_type": "image/png",
-                "size": 61833,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/919873f5-5808-4139-b9b1-8c5dd4369497"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.gov.sg",
-                "scope_type": "other",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "Domains where GovTech is the registrar",
-                "scope_type": "other",
                 "asset_value": "CRITICAL",
                 "report_count": null
             }
@@ -2705,272 +3113,6 @@
                 "scope": "https://apps.apple.com/de/app/teamviewer-quicksupport/id661649585",
                 "scope_type": "mobile-application-ios",
                 "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "Infomaniak Bug Bounty program",
-        "slug": "infomaniak-bug-bounty-program",
-        "country": "CH",
-        "activity_area": "Tech - Other",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 726,
-        "bounty_reward_min": 100,
-        "bounty_reward_max": 5000,
-        "scopes_count": 36,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "a8ed0d8c-1e61-434d-997f-e25e3c45f1e8",
-            "original_name": "logo-k-_1_.jpg",
-            "mime_type": "image/jpeg",
-            "size": 38164,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/a8ed0d8c-1e61-434d-997f-e25e3c45f1e8"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "Infomaniak",
-            "slug": "infomaniak",
-            "description": "Infomaniak is Switzerland's largest web-hosting company, also offering live-streaming and video on demand services.",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "7cf25280-a177-4aca-ad3e-9e11ddb2633f",
-                "original_name": "Capture d\u2019e\u0301cran 2023-06-16 a\u0300 16.50.25.png",
-                "mime_type": "image/png",
-                "size": 9091,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/7cf25280-a177-4aca-ad3e-9e11ddb2633f"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "*.kdrive.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "api.infomaniak.com",
-                "scope_type": "api",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "login.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "manager.infomaniak.com/v3/*",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "shop.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "CRITICAL",
-                "report_count": null
-            },
-            {
-                "scope": "*.kchat.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "calendar.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "contacts.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "etickets.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "mail.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "swiss-backup*.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "vod.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.vod2.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "player-radio.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "welcome.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.swisstransfer.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "www.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "chk.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ai-tools.infomaniak.com",
-                "scope_type": "mobile-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "kmeet.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "kpaste.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "sync.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "storage*.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "ix2smbdyjt.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "5k8vrbdyje.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "fv3lfbdyjh.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "l75pvbdyjo.infomaniak.site",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "infomaniak.events",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "sms.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "developer.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "invitation.infomaniak.com",
-                "scope_type": "web-application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.drive",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/app/infomaniak-kdrive/id1482778676",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://github.com/Infomaniak/desktop-kDrive",
-                "scope_type": "application",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://apps.apple.com/fr/app/infomaniak-mail/id1622596573",
-                "scope_type": "mobile-application-ios",
-                "asset_value": "MEDIUM",
-                "report_count": null
-            },
-            {
-                "scope": "https://play.google.com/store/apps/details?id=com.infomaniak.mail&hl=en_US",
-                "scope_type": "mobile-application-android",
-                "asset_value": "MEDIUM",
                 "report_count": null
             }
         ]
@@ -3673,62 +3815,6 @@
                 "scope": "play.google.com/store/apps/details?id=fr.assurancemaladie.monespacesante&showAllReviews=true (Android)",
                 "scope_type": "mobile-application-android",
                 "asset_value": "CRITICAL",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "BookBeat",
-        "slug": "bookbeat",
-        "country": "SE",
-        "activity_area": "Media & Entertainment",
-        "average_first_response_time": 1,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": true,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 147,
-        "bounty_reward_min": 50,
-        "bounty_reward_max": 2000,
-        "scopes_count": 1,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "306f6c1e-b790-4baf-abad-5bcd11246d3f",
-            "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-            "mime_type": "image/png",
-            "size": 7732,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/306f6c1e-b790-4baf-abad-5bcd11246d3f"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "BookBeat",
-            "slug": "bookbeat",
-            "description": "BookBeat",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "5a6d55c8-01d1-4130-a98b-1a6f64cef6d9",
-                "original_name": "ba4986c2f63b657f03b4a0a25479b145.png",
-                "mime_type": "image/png",
-                "size": 7732,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/5a6d55c8-01d1-4130-a98b-1a6f64cef6d9"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://www.bookbeat.com",
-                "scope_type": "web-application",
-                "asset_value": "LOW",
                 "report_count": null
             }
         ]
@@ -5620,92 +5706,6 @@
             {
                 "scope": "https://bounty-server.dracoon.app/",
                 "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            }
-        ]
-    },
-    {
-        "title": "DataDome Bot Bounty",
-        "slug": "datadome-bot-bounty",
-        "country": "FR",
-        "activity_area": "CyberSec",
-        "average_first_response_time": 2,
-        "type": "bug-bounty",
-        "status": "V",
-        "demo": false,
-        "public": true,
-        "bounty": true,
-        "gift": false,
-        "hall_of_fame": false,
-        "hacktivity": false,
-        "report_collaboration_active": true,
-        "pid": null,
-        "secured": false,
-        "disabled": false,
-        "vdp": false,
-        "archived": false,
-        "reports_count": 24,
-        "bounty_reward_min": 200,
-        "bounty_reward_max": 5000,
-        "scopes_count": 6,
-        "pentest_campaign_status": null,
-        "thumbnail": {
-            "name": "c28d277d-6850-4728-a5f2-ff8a1781a22c",
-            "original_name": "icone-DataDome (1).jpg",
-            "mime_type": "image/jpeg",
-            "size": 68409,
-            "url": "https://cdn-yeswehack.com/program/thumbnail/c28d277d-6850-4728-a5f2-ff8a1781a22c"
-        },
-        "event": null,
-        "business_unit": {
-            "name": "DataDome",
-            "slug": "datadome",
-            "description": "Online fraud & bot management for mobile apps, websites & APIs",
-            "currency": "EUR",
-            "already_activate_product": true,
-            "logo": {
-                "name": "2dbd89af-6605-4b83-845c-752b27da2ee1",
-                "original_name": "39075605-1411355165630647-161704930283880448-n.png",
-                "mime_type": "image/png",
-                "size": 15710,
-                "url": "https://cdn-yeswehack.com/business-unit/logo/2dbd89af-6605-4b83-845c-752b27da2ee1"
-            }
-        },
-        "scopes": [
-            {
-                "scope": "https://bounty-nodejs.datashield.co",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-fastly.datashield.co",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "https://bounty-nginx.datashield.co",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "*.captcha-delivery.com",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "js.datadome.co",
-                "scope_type": "web-application",
-                "asset_value": "HIGH",
-                "report_count": null
-            },
-            {
-                "scope": "api-js.datadome.co",
-                "scope_type": "api",
                 "asset_value": "HIGH",
                 "report_count": null
             }
