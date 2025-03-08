@@ -8,6 +8,7 @@ from platforms.hackerone import HackerOneAPI
 from platforms.bugcrowd import BugcrowdAPI
 from platforms.intigriti import IntigritiAPI
 from platforms.yeswehack import YesWeHackAPI
+import shutil
 
 class PublicPrograms:
     """A class to retrieve public programs from Platforms."""
@@ -19,7 +20,8 @@ class PublicPrograms:
         self.api = api
         self.platform_name = platform_name
         self.results_directory = './programs'
-        self.progress_file = f"{self.results_directory}/{platform_name}.json"
+        self.progress_directory = './progress'
+        self.progress_file = f"{self.progress_directory}/{platform_name}.json"
         self.logger = logging.getLogger(self.__class__.__name__)
         self.results: List[dict] = self.load_progress()
 
@@ -34,6 +36,8 @@ class PublicPrograms:
         """Save results in JSON format."""
         if not os.path.exists(self.results_directory):
             os.makedirs(self.results_directory)
+        if not os.path.exists(self.progress_directory):
+            os.makedirs(self.progress_directory)
         with open(self.progress_file, 'w') as outfile:
             json.dump(self.results, outfile, indent=4)
 
@@ -124,6 +128,24 @@ class PublicPrograms:
         self.save_results()
         return self.results
 
+def clear_dir(directory: str) -> None:
+    """Elimina todos los archivos en el directorio temporal."""
+    if os.path.exists(directory):
+        shutil.rmtree(directory)  # Elimina el directorio y todo su contenido
+        os.makedirs(directory)  # Vuelve a crear el directorio vacío
+
+def copy_content(temp_dir: str, final_dir: str) -> None:
+    """Copia el contenido del directorio temporal al directorio final."""
+    if not os.path.exists(final_dir):
+        os.makedirs(final_dir)
+    
+    # Copiar archivos del directorio temporal al final
+    for filename in os.listdir(temp_dir):
+        temp_file = os.path.join(temp_dir, filename)
+        final_file = os.path.join(final_dir, filename)
+        if os.path.isfile(temp_file):
+            shutil.copy(temp_file, final_file)  # Copiar archivo individual
+
 async def main():
     """Main function to run the scrapers."""
 
@@ -154,3 +176,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+    copy_content('./progress', './programs')
+    clear_dir('./progress')

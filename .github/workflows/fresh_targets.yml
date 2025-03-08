@@ -29,7 +29,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: progreso
-          path: programs/  # Restaurar archivos en la carpeta correcta
+          path: progress/  # Restaurar archivos en la carpeta correcta
         continue-on-error: true  # Evita fallos si no hay progreso guardado
 
       - name: Debug - List restored files
@@ -49,7 +49,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: progreso
-          path: programs/ # Guarda todos los archivos JSON de progreso
+          path: progress/ # Guarda todos los archivos JSON de progreso
         if: always()
 
       - name: Commit changes
