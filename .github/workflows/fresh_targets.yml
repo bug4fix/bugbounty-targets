@@ -30,7 +30,7 @@ jobs:
         with:
           name: progreso
           path: programs  # Restaurar archivos en la carpeta correcta
-        #continue-on-error: true  # Evita fallos si no hay progreso guardado
+        continue-on-error: true  # Evita fallos si no hay progreso guardado
 
       - name: Run crawler
         env:
