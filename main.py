@@ -9,48 +9,46 @@ from platforms.bugcrowd import BugcrowdAPI
 from platforms.intigriti import IntigritiAPI
 from platforms.yeswehack import YesWeHackAPI
 
-
 class PublicPrograms:
     """A class to retrieve public programs from Platforms."""
 
-    def __init__(self, api: API) -> None:
+    def __init__(self, api: API, platform_name: str) -> None:
         """
-        Initialize a new PublicPrograms object with the given API object.
-
-        Args:
-            api (API): An API object used to send requests to the API.
+        Initialize with API object and platform name.
         """
         self.api = api
+        self.platform_name = platform_name
         self.results_directory = './programs'
+        self.progress_file = f"{self.results_directory}/{platform_name}.json"
         self.logger = logging.getLogger(self.__class__.__name__)
-        self.results: List[dict] = []
+        self.results: List[dict] = self.load_progress()
 
-    def save_results(self, file_name: str) -> None:
-        """
-        Save the results in JSON format to the specified file.
+    def load_progress(self) -> List[dict]:
+        """Load previous progress from a JSON file if it exists."""
+        if os.path.exists(self.progress_file):
+            with open(self.progress_file, 'r') as infile:
+                return json.load(infile)
+        return []
 
-        Args:
-            file_path (str): The path to the file where the results will be saved.
-        """
+    def save_results(self) -> None:
+        """Save results in JSON format."""
         if not os.path.exists(self.results_directory):
             os.makedirs(self.results_directory)
-        with open(f"{self.results_directory}/{file_name}", 'w') as outfile:
+        with open(self.progress_file, 'w') as outfile:
             json.dump(self.results, outfile, indent=4)
 
     async def get_hackerone_programs(self) -> List[dict]:
-        """
-        Retrieve all public programs from the HackerOne API.
+        """Retrieve public programs from HackerOne."""
+        if self.results:
+            self.logger.info(f"Skipping {self.platform_name}, already completed.")
+            return self.results
 
-        Returns:
-            List[dict]: A list of dictionaries representing public programs.
-        """
         endpoint = f'{self.api.base_url}/v1/hackers/programs'
-
         async for response_json in self.api.paginate(endpoint):
             if 'data' in response_json:
                 self.results.extend(response_json['data'])
             else:
-                self.logger.error("Error: unexpected response format.")
+                self.logger.error("Unexpected response format.")
                 return []
 
         for scope in self.results:
@@ -58,125 +56,92 @@ class PublicPrograms:
             async for response_json in self.api.program_info(scope_handle):
                 if 'relationships' in response_json:
                     scope['relationships'] = response_json['relationships']
-                else:
-                    self.logger.error("Error: unexpected response format.")
-                    return []
 
-        self.save_results('hackerone.json')
-
+        self.save_results()
         return self.results
 
     async def get_bugcrowd_programs(self) -> List[dict]:
-        """
-        Retrieve all public programs from the BugCrowd API.
+        """Retrieve public programs from Bugcrowd."""
+        if self.results:
+            self.logger.info(f"Skipping {self.platform_name}, already completed.")
+            return self.results
 
-        Returns:
-            List[dict]: A list of dictionaries representing public programs.
-        """
         endpoint = f'{self.api.base_url}/programs.json'
         async for response_json in self.api.paginate(endpoint):
             if 'programs' in response_json:
                 self.results.extend(response_json['programs'])
-            else:
-                self.logger.error("Error: unexpected response format.")
-                return []
 
-        self.results = [
-            scope for scope in self.results if scope['invited_status'] == 'open']
+        self.results = [scope for scope in self.results if scope['invited_status'] == 'open']
 
         for scope in self.results:
             scope_handle = scope.get('code')
-
             async for response_json in self.api.program_info(scope_handle):
                 if 'target_groups' in response_json:
                     scope['target_groups'] = response_json['target_groups']
-                else:
-                    self.logger.error("Error: unexpected response format.")
-                    return []
 
-        self.save_results('bugcrowd.json')
-
+        self.save_results()
         return self.results
 
     async def get_yeswehack_programs(self) -> List[dict]:
-        """
-        Retrieve all public programs from the YesWeHack API.
+        """Retrieve public programs from YesWeHack."""
+        if self.results:
+            self.logger.info(f"Skipping {self.platform_name}, already completed.")
+            return self.results
 
-        Returns:
-            List[dict]: A list of dictionaries representing public programs.
-        """
         endpoint = f'{self.api.base_url}/programs'
         async for response_json in self.api.paginate(endpoint):
             if 'items' in response_json:
                 self.results.extend(response_json['items'])
-            else:
-                self.logger.error("Error: unexpected response format.")
-                return []
 
         for scope in self.results:
             scope_handle = scope.get('slug')
             async for response_json in self.api.program_info(scope_handle):
                 if 'scopes' in response_json:
                     scope['scopes'] = response_json['scopes']
-                else:
-                    self.logger.error("Error: unexpected response format.")
-                    return []
 
-        self.save_results('yeswehack.json')
-
+        self.save_results()
         return self.results
 
     async def get_intigriti_programs(self) -> List[dict]:
-        """
-        Retrieve all public programs from the Intigriti API.
+        """Retrieve public programs from Intigriti."""
+        if self.results:
+            self.logger.info(f"Skipping {self.platform_name}, already completed.")
+            return self.results
 
-        Returns:
-            List[dict]: A list of dictionaries representing public programs.
-        """
         endpoint = f'{self.api.base_url}/programs'
         response_json = await self.api.get(endpoint)
         if len(response_json) > 0:
             self.results.extend(response_json)
-        else:
-            self.logger.error("Error: unexpected response format.")
-            return []
 
-        self.results = [scope for scope in self.results if scope['confidentialityLevel']
-                        == 4 and scope['tacRequired'] == False]
+        self.results = [scope for scope in self.results if scope['confidentialityLevel'] == 4 and not scope['tacRequired']]
 
         for scope in self.results:
             scope_handle = f"{scope.get('companyHandle')}/{scope.get('handle')}"
             async for response_json in self.api.program_info(scope_handle):
                 if 'domains' in response_json:
                     scope['domains'] = response_json["domains"][-1]["content"]
-                else:
-                    self.logger.error("Error: unexpected response format.")
-                    return []
 
-        self.save_results('intigriti.json')
-
+        self.save_results()
         return self.results
 
 async def main():
-    # Hackerone API credentials
+    """Main function to run the scrapers."""
+
     try:
         HACKERONE_USERNAME = os.environ['HACKERONE_USERNAME']
         HACKERONE_TOKEN = os.environ['HACKERONE_TOKEN']
     except KeyError:
         raise SystemExit('Please provide the Hackerone username/token.')
 
-    hackerone_api = HackerOneAPI(
-        username=HACKERONE_USERNAME, token=HACKERONE_TOKEN)
-    public_programs_hackerone = PublicPrograms(api=hackerone_api)
-
+    hackerone_api = HackerOneAPI(username=HACKERONE_USERNAME, token=HACKERONE_TOKEN)
     intigriti_api = IntigritiAPI()
-    public_programs_intigriti = PublicPrograms(api=intigriti_api)
-
     bugcrowd_api = BugcrowdAPI()
-    public_programs_bugcrowd = PublicPrograms(api=bugcrowd_api)
-
     yeswehack_api = YesWeHackAPI()
-    public_programs_yeswehack = PublicPrograms(api=yeswehack_api)
+
+    public_programs_hackerone = PublicPrograms(api=hackerone_api, platform_name="hackerone")
+    public_programs_intigriti = PublicPrograms(api=intigriti_api, platform_name="intigriti")
+    public_programs_bugcrowd = PublicPrograms(api=bugcrowd_api, platform_name="bugcrowd")
+    public_programs_yeswehack = PublicPrograms(api=yeswehack_api, platform_name="yeswehack")
 
     await asyncio.gather(
         public_programs_hackerone.get_hackerone_programs(),

@@ -3,6 +3,7 @@ name: Crawl bugbounty platforms
 on:
   schedule:
     - cron: "0 0 * * *"
+  workflow_dispatch:  # Permite ejecución manual si es necesario
 
 jobs:
   run_and_push:
@@ -24,18 +25,33 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Restore progress
+        uses: actions/download-artifact@v3
+        with:
+          name: progreso
+          path: programs  # Restaurar archivos en la carpeta correcta
+        #continue-on-error: true  # Evita fallos si no hay progreso guardado
+
       - name: Run crawler
         env:
           HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
           HACKERONE_TOKEN: ${{ secrets.HACKERONE_TOKEN }}
-        run: python main.py
+        run: |
+          python main.py --resume  # Asume que tu script soporta reanudar
+
+      - name: Save progress
+        uses: actions/upload-artifact@v3
+        with:
+          name: progreso
+          path: programs/*.json  # Guarda todos los archivos JSON de progreso
+        if: always()
 
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git add .
-          git commit -m "Update programs to the latest version"
+          git commit -m "Update programs to the latest version" || echo "No changes to commit"
 
       - name: Push changes
         uses: ad-m/github-push-action@master
