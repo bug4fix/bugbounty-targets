@@ -32,18 +32,24 @@ jobs:
           path: programs  # Restaurar archivos en la carpeta correcta
         continue-on-error: true  # Evita fallos si no hay progreso guardado
 
+      - name: Debug - List restored files
+        run: ls -la programs/
+
       - name: Run crawler
         env:
           HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
           HACKERONE_TOKEN: ${{ secrets.HACKERONE_TOKEN }}
         run: |
-          python main.py --resume  # Asume que tu script soporta reanudar
+          python main.py # Asume que tu script soporta reanudar
+
+      - name: Debug - List files
+        run: ls -la programs/
 
       - name: Save progress
         uses: actions/upload-artifact@v3
         with:
           name: progreso
-          path: programs/*.json  # Guarda todos los archivos JSON de progreso
+          path: programs/  # Guarda todos los archivos JSON de progreso
         if: always()
 
       - name: Commit changes
