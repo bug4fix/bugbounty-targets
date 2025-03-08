@@ -26,7 +26,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Restore progress
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: progreso
           path: programs/  # Restaurar archivos en la carpeta correcta
@@ -46,7 +46,7 @@ jobs:
         run: ls -la programs/
 
       - name: Save progress
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: progreso
           path: programs/ # Guarda todos los archivos JSON de progreso
