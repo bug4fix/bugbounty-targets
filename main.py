@@ -167,8 +167,8 @@ async def main():
 
     await asyncio.gather(
         public_programs_hackerone.get_hackerone_programs(),
-        public_programs_intigriti.get_intigriti_programs(),
-        public_programs_bugcrowd.get_bugcrowd_programs(),
+        #public_programs_intigriti.get_intigriti_programs(), it changed, to do
+        #public_programs_bugcrowd.get_bugcrowd_programs(), it changed, to do
         public_programs_yeswehack.get_yeswehack_programs()
     )
 
