@@ -4,12 +4,13 @@ import os
 import json
 
 class HackerOneAPI(API):
-    def __init__(self, username: str, token: str) -> None:
+    def __init__(self, username: str, token: str, progress_dir: str = "./progress", final_file: str = "hackerone.json") -> None:
         super().__init__(base_url='https://api.hackerone.com')
         self.username = username
         self.token = token
         self.session.auth = (self.username, self.token)
-        self.progress_dir = "./progress"
+        self.progress_dir = progress_dir
+        self.final_file = final_file
         if not os.path.exists(self.progress_dir):
             os.makedirs(self.progress_dir)
 
@@ -24,7 +25,8 @@ class HackerOneAPI(API):
     async def paginate(self, endpoint: str) -> List[dict]:
         params = {}
         last_page = self.get_last_page()
-
+        all_data = []
+        
         current_page = 0
         while True:
             current_page += 1
@@ -37,13 +39,29 @@ class HackerOneAPI(API):
             filename = f"{self.progress_dir}/hackerone_page{current_page}.json"
             with open(filename, "w") as f:
                 json.dump(response_json, f, indent=4)
-
+            
+            all_data.append(response_json)
             yield response_json
 
-            if 'next' in response_json['links']:
+            if 'next' in response_json.get('links', {}):
                 endpoint = response_json['links']['next']
             else:
                 break
+        
+        # Una vez finalizada la paginación, consolidar los datos
+        self.merge_pages()
+
+    def merge_pages(self):
+        """Combina todos los datos paginados en un único archivo y elimina los archivos individuales."""
+        all_data = []
+        for filename in sorted(os.listdir(self.progress_dir)):
+            if filename.startswith("hackerone_page") and filename.endswith(".json"):
+                with open(os.path.join(self.progress_dir, filename), "r") as f:
+                    all_data.append(json.load(f))
+                os.remove(os.path.join(self.progress_dir, filename))
+        
+        with open(self.final_file, "w") as f:
+            json.dump(all_data, f, indent=4)
 
     async def program_info(self, scope: str) -> dict:
         """
