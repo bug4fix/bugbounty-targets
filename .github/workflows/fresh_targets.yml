@@ -26,6 +26,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Create progress directory
+        run: |
+          mkdir -p progress
+          touch progress/.gitkeep
+
       - name: Restore progress
         uses: actions/download-artifact@v4
         with:
@@ -59,6 +64,7 @@ jobs:
         with:
           name: progreso
           path: progress/
+          if-no-files-found: warn
           overwrite: true
           retention-days: 7
         if: always()

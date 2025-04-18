@@ -10,6 +10,19 @@ from platforms.intigriti import IntigritiAPI
 from platforms.yeswehack import YesWeHackAPI
 import shutil
 
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+# Ensure directories exist
+def ensure_directories():
+    """Ensure all required directories exist."""
+    directories = ['./programs', './progress']
+    for directory in directories:
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+            logger.info(f"Created directory: {directory}")
+
 class PublicPrograms:
     """A class to retrieve public programs from Platforms."""
 
@@ -161,8 +174,10 @@ def copy_content(temp_dir: str, final_dir: str) -> None:
 
 async def main():
     """Main function to run the scrapers."""
-
     try:
+        # Ensure directories exist before starting
+        ensure_directories()
+        
         HACKERONE_USERNAME = os.environ['HACKERONE_USERNAME']
         HACKERONE_TOKEN = os.environ['HACKERONE_TOKEN']
     except KeyError:
@@ -178,16 +193,23 @@ async def main():
     public_programs_bugcrowd = PublicPrograms(api=bugcrowd_api, platform_name="bugcrowd")
     public_programs_yeswehack = PublicPrograms(api=yeswehack_api, platform_name="yeswehack")
 
-    await asyncio.gather(
-        public_programs_hackerone.get_hackerone_programs(),
-        #public_programs_intigriti.get_intigriti_programs(), it changed, to do
-        #public_programs_bugcrowd.get_bugcrowd_programs(), it changed, to do
-        public_programs_yeswehack.get_yeswehack_programs()
-    )
-
-    logging.info("Programs crawled successfully.")
+    try:
+        await asyncio.gather(
+            public_programs_hackerone.get_hackerone_programs(),
+            #public_programs_intigriti.get_intigriti_programs(), it changed, to do
+            #public_programs_bugcrowd.get_bugcrowd_programs(), it changed, to do
+            public_programs_yeswehack.get_yeswehack_programs()
+        )
+        logging.info("Programs crawled successfully.")
+    except Exception as e:
+        logging.error(f"Error during crawling: {str(e)}")
+        raise
 
 if __name__ == '__main__':
-    asyncio.run(main())
-    copy_content('./progress', './programs')
-    clear_dir('./progress')
+    try:
+        asyncio.run(main())
+        copy_content('./progress', './programs')
+        clear_dir('./progress')
+    except Exception as e:
+        logging.error(f"Script failed: {str(e)}")
+        raise
