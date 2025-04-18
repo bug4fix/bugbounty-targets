@@ -11,36 +11,42 @@ class HackerOneAPI(API):
         self.session.auth = (self.username, self.token)
         self.progress_dir = progress_dir
         self.final_file = final_file
+        self.progress_file = os.path.join(progress_dir, "hackerone_progress.json")
         if not os.path.exists(self.progress_dir):
             os.makedirs(self.progress_dir)
 
-    def get_last_page(self) -> int:
-        """Determina la última página descargada basándose en los archivos existentes."""
-        existing_pages = [
-            int(f.split("_page")[-1].split(".json")[0])
-            for f in os.listdir(self.progress_dir) if f.startswith("hackerone_page")
-        ]
-        return max(existing_pages) if existing_pages else 0
+    def load_progress(self) -> dict:
+        """Load progress from the progress file."""
+        if os.path.exists(self.progress_file):
+            with open(self.progress_file, 'r') as f:
+                return json.load(f)
+        return {"last_page": 0, "total_pages": None, "programs_processed": []}
+
+    def save_progress(self, progress: dict) -> None:
+        """Save progress to the progress file."""
+        with open(self.progress_file, 'w') as f:
+            json.dump(progress, f, indent=4)
 
     async def paginate(self, endpoint: str) -> List[dict]:
+        progress = self.load_progress()
         params = {}
-        last_page = self.get_last_page()
-        all_data = []
+        current_page = progress["last_page"]
         
-        current_page = 0
         while True:
             current_page += 1
-            if current_page <= last_page:
-                continue  # Saltar las páginas ya guardadas
-
             response_json = await self.get(endpoint, params=params)
             
-            # Guardar la página en un archivo
+            # Save the page data
             filename = f"{self.progress_dir}/hackerone_page{current_page}.json"
             with open(filename, "w") as f:
                 json.dump(response_json, f, indent=4)
             
-            all_data.append(response_json)
+            # Update progress
+            progress["last_page"] = current_page
+            if 'total_pages' in response_json.get('meta', {}):
+                progress["total_pages"] = response_json['meta']['total_pages']
+            self.save_progress(progress)
+            
             yield response_json
 
             if 'next' in response_json.get('links', {}):
@@ -48,20 +54,29 @@ class HackerOneAPI(API):
             else:
                 break
         
-        # Una vez finalizada la paginación, consolidar los datos
+        # Once pagination is complete, merge the pages
         self.merge_pages()
 
     def merge_pages(self):
-        """Combina todos los datos paginados en un único archivo y elimina los archivos individuales."""
+        """Combine all paginated data into a single file and clean up individual files."""
         all_data = []
-        for filename in sorted(os.listdir(self.progress_dir)):
-            if filename.startswith("hackerone_page") and filename.endswith(".json"):
-                with open(os.path.join(self.progress_dir, filename), "r") as f:
-                    all_data.append(json.load(f))
-                os.remove(os.path.join(self.progress_dir, filename))
+        progress = self.load_progress()
         
+        # Collect all page data
+        for page_num in range(1, progress["last_page"] + 1):
+            filename = os.path.join(self.progress_dir, f"hackerone_page{page_num}.json")
+            if os.path.exists(filename):
+                with open(filename, "r") as f:
+                    all_data.append(json.load(f))
+                os.remove(filename)
+        
+        # Save the consolidated data
         with open(self.final_file, "w") as f:
             json.dump(all_data, f, indent=4)
+        
+        # Clear progress file
+        if os.path.exists(self.progress_file):
+            os.remove(self.progress_file)
 
     async def program_info(self, scope: str) -> dict:
         """
@@ -73,5 +88,14 @@ class HackerOneAPI(API):
         Yields:
             dict: A dictionary representing the response JSON for scope information
         """
+        progress = self.load_progress()
+        if scope in progress.get("programs_processed", []):
+            return
+        
         response_json = await self.get(f"{self.base_url}/v1/hackers/programs/{scope}")
+        
+        # Update progress
+        progress["programs_processed"].append(scope)
+        self.save_progress(progress)
+        
         yield response_json

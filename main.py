@@ -50,18 +50,31 @@ class PublicPrograms:
         endpoint = f'{self.api.base_url}/v1/hackers/programs'
         async for response_json in self.api.paginate(endpoint):
             if 'data' in response_json:
-                self.results.extend(response_json['data'])
+                # Only add new programs that haven't been processed yet
+                new_programs = [
+                    program for program in response_json['data']
+                    if program not in self.results
+                ]
+                self.results.extend(new_programs)
+                self.save_results()  # Save progress after each page
             else:
                 self.logger.error("Unexpected response format.")
                 return []
 
-        for scope in self.results:
-            scope_handle = scope.get('attributes').get('handle')
-            async for response_json in self.api.program_info(scope_handle):
-                if 'relationships' in response_json:
-                    scope['relationships'] = response_json['relationships']
+        # Process program details in smaller batches to avoid timeouts
+        batch_size = 10
+        for i in range(0, len(self.results), batch_size):
+            batch = self.results[i:i + batch_size]
+            for scope in batch:
+                scope_handle = scope.get('attributes', {}).get('handle')
+                if not scope_handle:
+                    continue
+                    
+                async for response_json in self.api.program_info(scope_handle):
+                    if 'relationships' in response_json:
+                        scope['relationships'] = response_json['relationships']
+                        self.save_results()  # Save progress after each program
 
-        self.save_results()
         return self.results
 
     async def get_bugcrowd_programs(self) -> List[dict]:

@@ -8,6 +8,7 @@ on:
 jobs:
   run_and_push:
     runs-on: ubuntu-latest
+    timeout-minutes: 350  # Just under 6 hours to allow for cleanup
 
     steps:
       - name: Checkout repository
@@ -29,29 +30,37 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: progreso
-          path: progress/  # Restaurar archivos en la carpeta correcta
+          path: progress/
         continue-on-error: true  # Evita fallos si no hay progreso guardado
 
       - name: Debug - List restored files
-        run: ls -la programs/
+        run: |
+          echo "Contents of progress directory:"
+          ls -la progress/
+          echo "Contents of programs directory:"
+          ls -la programs/
 
       - name: Run crawler
         env:
           HACKERONE_USERNAME: ${{ secrets.HACKERONE_USERNAME }}
           HACKERONE_TOKEN: ${{ secrets.HACKERONE_TOKEN }}
         run: |
-          python main.py # Asume que tu script soporta reanudar
+          python main.py
 
       - name: Debug - List files
-        run: ls -la programs/
+        run: |
+          echo "Contents of progress directory:"
+          ls -la progress/
+          echo "Contents of programs directory:"
+          ls -la programs/
 
       - name: Save progress
         uses: actions/upload-artifact@v4
         with:
           name: progreso
-          path: progress/ # Guarda todos los archivos JSON de progreso
+          path: progress/
           overwrite: true
-          #retention-days
+          retention-days: 7
         if: always()
 
       - name: Commit changes
