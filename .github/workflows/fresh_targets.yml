@@ -15,6 +15,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Fetch all history for all branches and tags
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -31,19 +32,13 @@ jobs:
           mkdir -p progress
           touch progress/.gitkeep
 
-      - name: Restore progress
-        uses: actions/download-artifact@v4
-        with:
-          name: progreso
-          path: progress/
-        continue-on-error: true  # Evita fallos si no hay progreso guardado
-
-      - name: Debug - List restored files
+      - name: Restore progress from repository
         run: |
-          echo "Contents of progress directory:"
-          ls -la progress/
-          echo "Contents of programs directory:"
-          ls -la programs/
+          if [ -f "progress/hackerone_progress.json" ]; then
+            echo "Found existing progress file"
+          else
+            echo "No existing progress file found"
+          fi
 
       - name: Run crawler
         env:
@@ -59,25 +54,18 @@ jobs:
           echo "Contents of programs directory:"
           ls -la programs/
 
-      - name: Save progress
-        uses: actions/upload-artifact@v4
-        with:
-          name: progreso
-          path: progress/
-          if-no-files-found: warn
-          overwrite: true
-          retention-days: 7
-        if: always()
-
-      - name: Commit changes
+      - name: Commit and push progress
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Update programs to the latest version" || echo "No changes to commit"
+          git add progress/
+          git commit -m "Update progress files" || echo "No changes to commit"
+          git push origin main || echo "Nothing to push"
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+      - name: Commit and push programs
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add programs/
+          git commit -m "Update programs to the latest version" || echo "No changes to commit"
+          git push origin main || echo "Nothing to push"

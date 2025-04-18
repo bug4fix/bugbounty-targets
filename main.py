@@ -40,19 +40,38 @@ class PublicPrograms:
 
     def load_progress(self) -> List[dict]:
         """Load previous progress from a JSON file if it exists."""
-        if os.path.exists(self.progress_file):
-            with open(self.progress_file, 'r') as infile:
-                return json.load(infile)
-        return []
+        try:
+            if os.path.exists(self.progress_file):
+                with open(self.progress_file, 'r') as infile:
+                    self.logger.info(f"Loading progress from {self.progress_file}")
+                    return json.load(infile)
+            self.logger.info(f"No progress file found at {self.progress_file}")
+            return []
+        except Exception as e:
+            self.logger.error(f"Error loading progress: {str(e)}")
+            return []
 
     def save_results(self) -> None:
         """Save results in JSON format."""
-        if not os.path.exists(self.results_directory):
-            os.makedirs(self.results_directory)
-        if not os.path.exists(self.progress_directory):
-            os.makedirs(self.progress_directory)
-        with open(self.progress_file, 'w') as outfile:
-            json.dump(self.results, outfile, indent=4)
+        try:
+            if not os.path.exists(self.results_directory):
+                os.makedirs(self.results_directory)
+            if not os.path.exists(self.progress_directory):
+                os.makedirs(self.progress_directory)
+            
+            # Save to progress file
+            with open(self.progress_file, 'w') as outfile:
+                json.dump(self.results, outfile, indent=4)
+            
+            # Also save to programs directory for backup
+            final_file = os.path.join(self.results_directory, f"{self.platform_name}.json")
+            with open(final_file, 'w') as outfile:
+                json.dump(self.results, outfile, indent=4)
+                
+            self.logger.info(f"Saved results to {self.progress_file} and {final_file}")
+        except Exception as e:
+            self.logger.error(f"Error saving results: {str(e)}")
+            raise
 
     async def get_hackerone_programs(self) -> List[dict]:
         """Retrieve public programs from HackerOne."""
@@ -208,8 +227,7 @@ async def main():
 if __name__ == '__main__':
     try:
         asyncio.run(main())
-        copy_content('./progress', './programs')
-        clear_dir('./progress')
+        # No need to copy content or clear dir anymore as we're saving directly
     except Exception as e:
         logging.error(f"Script failed: {str(e)}")
         raise
