@@ -9,6 +9,7 @@ from platforms.bugcrowd import BugcrowdAPI
 from platforms.intigriti import IntigritiAPI
 from platforms.yeswehack import YesWeHackAPI
 import shutil
+import time
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
@@ -35,6 +36,8 @@ class PublicPrograms:
         self.results_directory = './programs'
         self.progress_directory = './progress'
         self.progress_file = f"{self.progress_directory}/{platform_name}.json"
+        self.last_commit_time = time.time()
+        self.commit_interval = 300  # Commit every 5 minutes
         self.logger = logging.getLogger(self.__class__.__name__)
         self.results: List[dict] = self.load_progress()
 
@@ -51,8 +54,8 @@ class PublicPrograms:
             self.logger.error(f"Error loading progress: {str(e)}")
             return []
 
-    def save_results(self) -> None:
-        """Save results in JSON format."""
+    def save_results(self, force_commit: bool = False) -> None:
+        """Save results in JSON format and commit if needed."""
         try:
             if not os.path.exists(self.results_directory):
                 os.makedirs(self.results_directory)
@@ -69,9 +72,28 @@ class PublicPrograms:
                 json.dump(self.results, outfile, indent=4)
                 
             self.logger.info(f"Saved results to {self.progress_file} and {final_file}")
+
+            # Check if we should commit
+            current_time = time.time()
+            if force_commit or (current_time - self.last_commit_time) >= self.commit_interval:
+                self.commit_progress()
+                self.last_commit_time = current_time
+
         except Exception as e:
             self.logger.error(f"Error saving results: {str(e)}")
             raise
+
+    def commit_progress(self) -> None:
+        """Commit the current progress to git."""
+        try:
+            # Add and commit progress files
+            os.system('git add progress/')
+            os.system('git add programs/')
+            os.system('git commit -m "Update progress files" || echo "No changes to commit"')
+            os.system('git push origin main || echo "Nothing to push"')
+            self.logger.info("Committed and pushed progress")
+        except Exception as e:
+            self.logger.error(f"Error committing progress: {str(e)}")
 
     async def get_hackerone_programs(self) -> List[dict]:
         """Retrieve public programs from HackerOne."""
@@ -107,6 +129,8 @@ class PublicPrograms:
                         scope['relationships'] = response_json['relationships']
                         self.save_results()  # Save progress after each program
 
+        # Force a final commit
+        self.save_results(force_commit=True)
         return self.results
 
     async def get_bugcrowd_programs(self) -> List[dict]:
@@ -227,7 +251,6 @@ async def main():
 if __name__ == '__main__':
     try:
         asyncio.run(main())
-        # No need to copy content or clear dir anymore as we're saving directly
     except Exception as e:
         logging.error(f"Script failed: {str(e)}")
         raise

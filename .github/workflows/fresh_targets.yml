@@ -53,19 +53,3 @@ jobs:
           ls -la progress/
           echo "Contents of programs directory:"
           ls -la programs/
-
-      - name: Commit and push progress
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add progress/
-          git commit -m "Update progress files" || echo "No changes to commit"
-          git push origin main || echo "Nothing to push"
-
-      - name: Commit and push programs
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add programs/
-          git commit -m "Update programs to the latest version" || echo "No changes to commit"
-          git push origin main || echo "Nothing to push"
